@@ -1,0 +1,19 @@
+.flex-grid {
+    display: flex;
+  }
+  .col {
+    flex: 1;
+  }
+  .subcol {
+    flex: 1;
+  }
+
+#red_alliance_info {
+  background: red;
+  color: whitesmoke;
+}
+
+#blue_alliance_info {
+  background: blue;
+  color:whitesmoke;
+}

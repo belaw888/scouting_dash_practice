@@ -9,6 +9,7 @@ import TBA_data_functions as t
 tba = tbapy.TBA('dZURQZdsSGuLmOC8lHnCnpPvjUqVpQ2qXxdObgcLS75cT7jNAfUxxvkOusgsd30e')
 
 # +
+
 event_key = '2022varr'
 json_data = tba.event_matches(event_key)
 # schedule = tba.team_events(401, 2022)
@@ -17,7 +18,7 @@ schedule = team401.simple_season_schedule()
 # print(schedule)
 s1 = json.dumps(json_data)
 data = json.loads(s1)
-# print(data)
+print(data)
 df = pd.DataFrame(data)
 df = df.fillna("")
 

@@ -9,7 +9,8 @@ import frc_schedule_generator as sched
 
 app = Dash(__name__)
 
-dict = sched.get_qm_schedule('2022gal')
+dict = sched.get_qm_schedule('2022vabrb')
+print()
 print(dict)
 df = pd.DataFrame.from_dict(dict)
 match_keys = df.columns.values
@@ -38,7 +39,7 @@ app.layout = html.Div([
             children=[
                 dcc.Dropdown(id="select_match",
                     options=[{"label": x, "value": x} for x in match_keys],
-                    value=match_keys[3],
+                    value=match_keys[0],
                     placeholder='select a match',
                     multi=False)
                     ]
@@ -50,20 +51,19 @@ app.layout = html.Div([
     #              multi=False,
     #              style={'width': "40%"}
     #              ),
-
+    html.Br(),
     html.Div(id='match_num_container', children=[]),
     html.Br(),
     html.Div(className='flex-grid', children=[
-
         html.Div(className='col', id='red_alliance_info', children=[
-            html.Div(className='subcol', id='red_1'),
-            html.Div(className='subcol', id='red_2'),
-            html.Div(className='subcol', id='red_3'),
+            html.Div(className='col', id='red_1'),
+            html.Div(className='col', id='red_2'),
+            html.Div(className='col', id='red_3'),
         ]),
         html.Div(className='col', id='blue_alliance_info', children=[
-            html.Div(className='subcol', id='blue_1'),
-            html.Div(className='subcol', id='blue_2'),
-            html.Div(className='subcol', id='blue_3'),
+            html.Div(className='col', id='blue_1'),
+            html.Div(className='col', id='blue_2'),
+            html.Div(className='col', id='blue_3'),
         ]),
 
     ]),
@@ -124,6 +124,7 @@ def update_graph(select_match):
     # print(red_container)
     # print(dff.loc[['b1']])
     
+    #USE F STRINGS
     blue_1 = 'Blue Alliance 1: {}'.format(dff.loc['b1', match_key])
     blue_2 = 'Blue Alliance 2: {}'.format(dff.loc['b2', match_key])
     blue_3 = 'Blue Alliance 3: {}'.format(dff.loc['b3', match_key])

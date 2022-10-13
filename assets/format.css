@@ -4,16 +4,15 @@
   .col {
     flex: 1;
   }
-  .subcol {
-    flex: 1;
-  }
 
 #red_alliance_info {
   background: red;
   color: whitesmoke;
+  columns: 3
 }
 
 #blue_alliance_info {
   background: blue;
   color:whitesmoke;
+  columns: 3
 }

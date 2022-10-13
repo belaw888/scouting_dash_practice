@@ -14,9 +14,10 @@ import TBA_data_functions as t
 
 tba = tbapy.TBA('dZURQZdsSGuLmOC8lHnCnpPvjUqVpQ2qXxdObgcLS75cT7jNAfUxxvkOusgsd30e')
 
-team401 = t.team(422, 2022) 
+team401 = t.team(401, 2022) 
 team401_schedule = team401.simple_season_schedule()
 team401_events = team401.season_event_keys()
+
 
 # wks.clear()
 # wks.update('a1', [team401_schedule.columns.values.tolist()] + team401_schedule.values.tolist())
@@ -60,6 +61,7 @@ team_numbers = [401, 254, 422, 2363, 364, 1511]
 #     fig.show
 
 team401_match_keys_season = team401.team_event_match_keys(team401_events)
+print(team401_match_keys_season)
 # print(team401_match_keys_season)
 team401_climbs_season = team401.team_match_climbs(team401_match_keys_season)
 df3 = pd.DataFrame({'climbs': team401_climbs_season})

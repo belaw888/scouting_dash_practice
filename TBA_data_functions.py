@@ -28,7 +28,7 @@ class team:
         s1 = json.dumps(json_data)
         data = json.loads(s1)
         try:
-            data = sorted(data, key=itemgetter('actual_time'))
+            # data = sorted(data, key=itemgetter('actual_time'))
             match_keys = []
             
             for i in data:

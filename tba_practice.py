@@ -4,6 +4,7 @@ import json
 import pandas as pd
 from operator import itemgetter
 import TBA_data_functions as t
+import time
 
 # sa = gspread.service_account(filename=
 #     r'C:\Users\Team401\Desktop\Python_Projects\TBA_Test\%APPDATA%\gspread\service_account.json')
@@ -13,10 +14,12 @@ import TBA_data_functions as t
 # wks2 = sh.worksheet('Sheet2')
 
 tba = tbapy.TBA('dZURQZdsSGuLmOC8lHnCnpPvjUqVpQ2qXxdObgcLS75cT7jNAfUxxvkOusgsd30e')
+start = time.time()
 
-team401 = t.team(401, 2022) 
+team401 = t.team(422, 2022) 
 team401_schedule = team401.simple_season_schedule()
 team401_events = team401.season_event_keys()
+# print(team401_events)
 
 
 # wks.clear()
@@ -47,7 +50,7 @@ team401_events = team401.season_event_keys()
 
 import plotly.express as px
 
-team_numbers = [401, 254, 422, 2363, 364, 1511]
+# team_numbers = [401, 254, 422, 2363, 364, 1511]
 
 # for num in team_numbers:
 #     team = t.team(num, 2022)
@@ -60,10 +63,12 @@ team_numbers = [401, 254, 422, 2363, 364, 1511]
 #     fig = px.pie(dataframe, names='climbs')
 #     fig.show
 
-team401_match_keys_season = team401.team_event_match_keys(team401_events)
+team401_match_keys_season = team401.team_event_match_keys(team401_events[:3])
 print(team401_match_keys_season)
 # print(team401_match_keys_season)
 team401_climbs_season = team401.team_match_climbs(team401_match_keys_season)
 df3 = pd.DataFrame({'climbs': team401_climbs_season})
 fig = px.pie(df3, names='climbs')
 fig.show()
+end = time.time()
+print(f'time of execution: {(end-start) * 10**3} ms')

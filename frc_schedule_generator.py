@@ -4,6 +4,8 @@ from tabulate import tabulate
 import pandas as pd
 import json
 from operator import itemgetter
+import time
+import TBA_data_functions
 # import TBA_data_functions as t
 
 tba = tbapy.TBA('dZURQZdsSGuLmOC8lHnCnpPvjUqVpQ2qXxdObgcLS75cT7jNAfUxxvkOusgsd30e')
@@ -22,7 +24,8 @@ def season_event_keys(team_key, year):
         json_data = tba.team_events(team_key, year)
         s1 = json.dumps(json_data)
         data = json.loads(s1)
-        data = sorted(data, key=itemgetter('start_date'))
+        # Sorting here triples the execution time
+        # data = sorted(data, key=itemgetter('start_date'))
         output = []
         for i in data:
             output.append(i['key'])
@@ -81,6 +84,14 @@ def get_qm_schedule(event_key):
     except KeyError:
         return 'Schedule Has Not Been Released'
 
+def get_team_season_climbs(team_key):
+    events = season_event_keys(team_key, 2022)
+    
+    for i in events:
+        tba.team_matches(team_key, i)
+
+
+
 event_key = '2022chcmp'
 def get_team_list(event_key):
     json_data = tba.event_teams(event_key)
@@ -105,15 +116,17 @@ def get_team_list(event_key):
         country = team_profile_df['country'].values[0]
 
         events = season_event_keys(items, 2022)
-        
+        # events = [0]
         #to save time:
         #store data for first event
         #if event data has been called already, use that
         event_data_dict = {}
 
+        # TBA_data_functions.
+
         for i in events:
             event_data_dict[i] = {
-                'quals_rank' : 'x',
+                'win_loss_tie' : 'x',
                 'endgame_points' : 'y'
             }
         
@@ -135,9 +148,10 @@ def get_team_list(event_key):
     return event_teams_dict
 
     # return df
-    
+start = time.time()
 print(get_team_list(event_key))
-
+end = time.time()
+print(f'time of execution: {(end-start) * 10**3} ms')
 
 # data = get_qm_schedule(event_key)
 # out = pd.DataFrame.from_dict(data)

@@ -84,12 +84,26 @@ def get_qm_schedule(event_key):
     except KeyError:
         return 'Schedule Has Not Been Released'
 
-def get_team_season_climbs(team_key):
+def get_team_season_matches(team_key):
     events = season_event_keys(team_key, 2022)
-    
+    # print(events)
+    season_event_matches = {}
     for i in events:
-        tba.team_matches(team_key, i)
+        # print(i)
+        season_event_matches[i] = tba.team_matches(team_key, i, 2022)
 
+    return season_event_matches
+
+def team_list_season_matches(team_key_list):
+    team_list_season_matches = {}
+    for i in team_key_list:
+        team_list_season_matches[i] = get_team_season_matches(i)
+
+    return team_list_season_matches
+
+def get_event_teams_list(event_key):
+     json_data = tba.event_teams(event_key, keys=True)
+     return json_data
 
 
 event_key = '2022chcmp'
@@ -115,7 +129,7 @@ def get_team_list(event_key):
         state_prov = team_profile_df['state_prov'].values[0]
         country = team_profile_df['country'].values[0]
 
-        events = season_event_keys(items, 2022)
+        events_and_matches = get_team_season_matches(items)
         # events = [0]
         #to save time:
         #store data for first event
@@ -149,7 +163,8 @@ def get_team_list(event_key):
 
     # return df
 start = time.time()
-print(get_team_list(event_key))
+# print(get_team_list(event_key))
+print(get_team_season_matches('frc254'))
 end = time.time()
 print(f'time of execution: {(end-start) * 10**3} ms')
 

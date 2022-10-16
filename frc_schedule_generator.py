@@ -32,7 +32,7 @@ def season_event_keys(team_key, year):
         return output
 
 def get_qm_schedule(event_key):
-    print(tba.team_events('frc401', 2022, True))
+    # print(tba.team_events('frc401', 2022, True))
     json_data = tba.event_matches(event_key)
     df = tbapy_to_pandas_df(json_data)
 
@@ -162,11 +162,11 @@ def get_team_list(event_key):
     return event_teams_dict
 
     # return df
-start = time.time()
+# start = time.time()
 # print(get_team_list(event_key))
-print(get_team_season_matches('frc254'))
-end = time.time()
-print(f'time of execution: {(end-start) * 10**3} ms')
+# print(get_team_season_matches('frc254'))
+# end = time.time()
+# print(f'time of execution: {(end-start) * 10**3} ms')
 
 # data = get_qm_schedule(event_key)
 # out = pd.DataFrame.from_dict(data)

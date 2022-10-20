@@ -1,6 +1,9 @@
 import frc_schedule_generator as sched
 import json
 import time
+import pandas as pd
+import plotly.express as px
+
 start = time.time()
 
 event_key = '2022vabrb'
@@ -79,7 +82,7 @@ def team_season_match_keys(team_key):
 
 
 
-print(team_climbs(team_season_match_keys(team_key), team_key))
+# print(team_climbs(team_season_match_keys(team_key), team_key))
 
 end = time.time()
 print(f'time of execution: {(end-start) * 10**3} ms')
@@ -87,3 +90,7 @@ print(f'time of execution: {(end-start) * 10**3} ms')
 #after 'youtube.com/watch?v=' in the url
 #ie: 'youtube.com/watch?v=H-zSTqt0SHE'
 
+climbs = team_climbs(team_season_match_keys(team_key), team_key)
+df3 = pd.DataFrame({'climbs': climbs})
+fig = px.pie(df3, names='climbs')
+fig.show()

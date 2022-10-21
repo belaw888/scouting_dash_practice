@@ -11,11 +11,6 @@ tba = tbapy.TBA(
 
 start = time.time()
 
-event_key = '2022vabrb'
-team_key = 'frc5724'
-year = 2022
-
-
 def new_team_season_data_json(event_key):
     """
     Creates a json file of teams at a given event. 
@@ -31,6 +26,7 @@ def new_team_season_data_json(event_key):
     with open('event_teams_season_data.json', 'w') as outfile:
         json.dump(dict, outfile, indent=4)
 
+
 def json_update_team_season_matches(team_key, year):
     events = season_events(team_key, year)
     season_event_matches = {}
@@ -39,12 +35,14 @@ def json_update_team_season_matches(team_key, year):
 
     return season_event_matches
 
+
 def json_update_team_list_season_matches(team_key_list, year):
     team_list_season_matches = {}
     for i in team_key_list:
         team_list_season_matches[i] = json_update_team_season_matches(i, year)
 
     return team_list_season_matches
+
 
 def open_team_season_data_json():
     """
@@ -99,6 +97,7 @@ def team_endgame_results(match_keys, team_key):
 
     return endgames
 
+
 def team_season_endgame_tally(team_key, year):
     """
     generates dictionary of endgame results ('climbs' for 2022 season) achieved by a team during a season
@@ -125,7 +124,9 @@ def team_season_endgame_tally(team_key, year):
         if item == 'None':
             none += 1
 
-    endgame_dict = {'Low' : low, 'Mid' : mid, 'High' : high, 'Traversal' : trav, 'None' : none}
+    # endgame_dict = {'Low' : low, 'Mid' : mid, 'High' : high, 'Traversal' : trav, 'None' : none}
+    endgame_dict = {'level' : ['Low', 'Mid', 'High', 'Traversal','None'],
+                    'climbs' : [low, mid, high, trav, none]}
 
     return endgame_dict
 
@@ -196,8 +197,6 @@ def team_event_matches(event_key, team_key):
         event_match_keys.append(x['key'])
 
     return event_match_keys
-
-# functions previously in 'frc_schedule_generator.py'
 
 
 def tbapy_to_pandas_df(json_data):
@@ -303,6 +302,7 @@ def get_qm_schedule(event_key):
     except KeyError:
         return 'Schedule Has Not Been Released'
 
+
 def get_event_teams_list(event_key):
     """
     Get list of all teams attending a given event
@@ -320,41 +320,17 @@ def get_event_teams_list(event_key):
 def event_team_lookup_dict(event_key):
     json_data = tba.event_teams(event_key)
     df = tbapy_to_pandas_df(json_data)
-    # print(df.head())
-    # print(df.loc[df['key'] == 'frc1262'])
 
     event_teams_dict = {}
-    # event_teams_dict = dict(df['key'])
-
-    # print(event_teams_dict)
 
     for items in df['key']:
         team_profile_df = df.loc[df['key'] == items]
-        # print(type(team_profile_dict))
-        # event_teams_dict[items]['profile']['team_number'] = team_profile_dict['team_number']
-        # event_teams_dict[items]['profile']['team_name'] = team_profile_dict['nickname']
         team_number = team_profile_df['team_number'].values[0]
+        team_number = int(team_number)
         nickname = team_profile_df['nickname'].values[0]
         city = team_profile_df['city'].values[0]
         state_prov = team_profile_df['state_prov'].values[0]
         country = team_profile_df['country'].values[0]
-
-        # events_and_matches = team_season_matches(items)
-        # # events = [0]
-        # # to save time:
-        # # store data for first event
-        # # if event data has been called already, use that
-        # event_data_dict = {}
-
-        # # TBA_data_functions.
-
-        # for i in events:
-        #     event_data_dict[i] = {
-        #         'endgame_points': 'y'
-        #     }
-
-        # print(events)
-        # print(team_profile_df.columns)
 
         climbs = team_season_endgame_tally(items, 2022)
 
@@ -369,20 +345,28 @@ def event_team_lookup_dict(event_key):
                 'endgame_results': climbs}
         }
 
-    # print(event_teams_dict)
     return event_teams_dict
 
-    # return df
+def new_event_team_lookup_json(event_key):
+    dict = event_team_lookup_dict(event_key)
+    # print(type(dict))
+    # dict = json.dumps(dict)
+    with open('event_team_lookup.json', 'w') as outfile:
+        json.dump(dict, outfile, indent=4)
 
 # video keys like H-zSTqt0SHE should be used
 # after 'youtube.com/watch?v=' in the url
 #ie: 'youtube.com/watch?v=H-zSTqt0SHE'
 
 
-teams_dict = event_team_lookup_dict(event_key)('2022varr')
-climbs = teams_dict['frc1086']['season_data']['endgame_results']
-df3 = pd.DataFrame({'climbs': climbs})
-fig = px.pie(df3, names='climbs')
+# teams_dict = new_event_team_lookup_json('2022varr')
+with open('event_team_lookup.json', 'r') as infile:
+        data = json.load(infile)
+
+climbs = data['frc5804']['season_data']['endgame_results']
+df3 = pd.DataFrame(climbs)
+print(df3)
+fig = px.pie(df3, template='plotly', names='level', values='climbs')
 fig.show()
 # new_team_season_data_json('2022varr')
 # print(get_team_list('2022varr'))

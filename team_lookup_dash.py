@@ -21,21 +21,36 @@ app.layout = html.Div([
             children=[
                 dcc.Dropdown(id="select_team",
                     options=[{"label": x, "value": x} for x in teams],
-                    value=teams[0],
+                    value='frc401',
                     multi=False)
                     ]
     ),
     html.Br(),
     html.Div(id='team_nickname', children=[]),
+    html.Br(),
     html.Div(id='state_prov', children=[]),
     html.Br(),
-    
+    dcc.Graph(id='pie', figure={}),
+    html.Br(),
+    # html.Iframe(id='robot_image', src='https://i.imgur.com/B2xXkOJh.jpg', width='300', height='200')
+    html.Div(children=[
+    html.Blockquote(className="imgur-embed-pub", lang='en', id="I8B4P5Z", contextMenu='false', children=[
+        html.A(href="//imgur.com/I8B4P5Z")
+    ]),
+    html.Script(src="//s.imgur.com/min/embed.js", charSet="utf-8")
+    ])
 ])
+
+# <blockquote class="imgur-embed-pub" lang="en" data-id="I8B4P5Z" data-context="false" >
+# <a href="//imgur.com/I8B4P5Z"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8">
+# </script>
 
 #callbacks
 @app.callback(
     [Output(component_id='team_nickname', component_property='children'),
-     Output(component_id='state_prov', component_property='children')],
+     Output(component_id='state_prov', component_property='children'),
+     Output(component_id='pie', component_property='figure')],
+    #  Output(component_id='robot_image', component_property='src')],
      Input(component_id='select_team', component_property='value')
 )
 def update_graph(select_team):
@@ -43,7 +58,15 @@ def update_graph(select_team):
     nickname = [team_lookup_dict[select_team]['profile']['nickname']]
     state_prov = [team_lookup_dict[select_team]['profile']['state_prov']]
 
-    return nickname, state_prov
+    pie = px.pie(
+        lookup.endgame_pie_chart_df(select_team), 
+        template='plotly', 
+        names='level', 
+        values='climbs')
+
+    robot_image = lookup.robot_image(select_team, 2022)
+    print(robot_image)
+    return nickname, state_prov, pie
 
 
 if __name__ == '__main__':

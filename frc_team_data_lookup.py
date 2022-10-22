@@ -374,13 +374,25 @@ def open_event_team_lookup_json():
 
     return data
 
-# data = open_event_team_lookup_json()
-# climbs = data['frc5804']['season_data']['endgame_results']
-# df3 = pd.DataFrame(climbs)
-# print(df3)
-# fig = px.pie(df3, template='plotly', names='level', values='climbs')
-# fig.show()
 
+def endgame_pie_chart_df(team_key):
+    data = open_event_team_lookup_json()
+    climbs = data[team_key]['season_data']['endgame_results']
+    df = pd.DataFrame(climbs)
+
+    return df
+
+
+def robot_image(team_key, year):
+    images = tba.team_media(team_key, year)
+    
+    for pic in images:
+      if pic['type'] == 'imgur':
+        return pic['view_url']
+    
+    return 'no image found'
+
+print(robot_image('frc401', 2022))
 # end = time.time()
 # print(f'time of execution: {(end-start) * 10**3} ms')
 

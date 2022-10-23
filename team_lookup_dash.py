@@ -32,13 +32,13 @@ app.layout = html.Div([
     html.Br(),
     dcc.Graph(id='pie', figure={}),
     html.Br(),
-    # html.Iframe(id='robot_image', src='https://i.imgur.com/B2xXkOJh.jpg', width='300', height='200')
-    html.Div(children=[
-    html.Blockquote(className="imgur-embed-pub", lang='en', id="I8B4P5Z", contextMenu='false', children=[
-        html.A(href="//imgur.com/I8B4P5Z")
-    ]),
-    html.Script(src="//s.imgur.com/min/embed.js", charSet="utf-8")
-    ])
+    html.Iframe(id='robot_image', src='https://i.imgur.com/B2xXkOJh.jpg', width='300', height='200')
+    # html.Div(children=[
+    # html.Blockquote(className="imgur-embed-pub", lang='en', id="I8B4P5Z", contextMenu='false', children=[
+    #     html.A(href="//imgur.com/I8B4P5Z")
+    # ]),
+    # html.Script(src="//s.imgur.com/min/embed.js", charSet="utf-8")
+    # ])
 ])
 
 # <blockquote class="imgur-embed-pub" lang="en" data-id="I8B4P5Z" data-context="false" >
@@ -66,7 +66,7 @@ def update_graph(select_team):
 
     robot_image = lookup.robot_image(select_team, 2022)
     print(robot_image)
-    return nickname, state_prov, pie
+    return nickname, state_prov, pie, robot_image
 
 
 if __name__ == '__main__':

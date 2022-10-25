@@ -5,7 +5,8 @@ import pandas as pd
 import plotly.express as px  # (version 4.7.0 or higher)
 import plotly.graph_objects as go
 from dash import Dash, dcc, html, Input, Output  # pip install dash (version 2.0.0 or higher)
-
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 
 app = Dash(__name__)
 
@@ -86,16 +87,12 @@ def update_graph(select_data_type, teams_selected):
 
     fig = px.line(
         data_frame=dff, 
-        
         x='Match #', 
         y=select_data_type, 
         line_group='Team #',
         color = 'Team #',
-        # width=1000,
-	    # height=500,
         facet_row_spacing=0.005,
         markers=True,
-        # line_shape='spline'
     )
     
     # comments_container = comments

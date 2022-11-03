@@ -441,6 +441,32 @@
             }
         }
     },
+    "frc422": {
+        "profile": {
+            "team_number": 422,
+            "nickname": "The Mech Tech Dragons",
+            "state_prov": "Virginia",
+            "country": "USA"
+        },
+        "season_data": {
+            "endgame_results": {
+                "level": [
+                    "Low",
+                    "Mid",
+                    "High",
+                    "Traversal",
+                    "None"
+                ],
+                "climbs": [
+                    0,
+                    5,
+                    4,
+                    16,
+                    16
+                ]
+            }
+        }
+    },
     "frc435": {
         "profile": {
             "team_number": 435,
@@ -653,6 +679,32 @@
         "profile": {
             "team_number": 9003,
             "nickname": "TuTu Turtles",
+            "state_prov": "Virginia",
+            "country": "USA"
+        },
+        "season_data": {
+            "endgame_results": {
+                "level": [
+                    "Low",
+                    "Mid",
+                    "High",
+                    "Traversal",
+                    "None"
+                ],
+                "climbs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        }
+    },
+    "frc9010": {
+        "profile": {
+            "team_number": 9010,
+            "nickname": "CrabBots",
             "state_prov": "Virginia",
             "country": "USA"
         },

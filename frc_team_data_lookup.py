@@ -90,9 +90,10 @@ def team_endgame_results(match_keys, team_key):
                 station = alliance_color + ' ' + str(station_index)
                 split = station.split()
 
-                if match['score_breakdown'] != None:
-                    endgame = match['score_breakdown'][split[0]
-                                                       ]['endgameRobot' + split[1]]
+                # print(match['score_breakdown']['red'])
+                
+                if match['score_breakdown'] != None and match['score_breakdown']!= {}:
+                    endgame = match['score_breakdown'][split[0]]['endgameRobot' + split[1]]
                     endgames.append(endgame)
 
     return endgames
@@ -392,7 +393,7 @@ def robot_image(team_key, year):
     
     return 'no image found'
 
-print(robot_image('frc401', 2022))
+# print(robot_image('frc401', 2022))
 # end = time.time()
 # print(f'time of execution: {(end-start) * 10**3} ms')
 

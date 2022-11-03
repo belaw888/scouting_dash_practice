@@ -31,12 +31,17 @@ fig = make_subplots(specs=[[{"secondary_y": True}]])
 
 # Add traces
 fig.add_trace(
-    go.Scatter(x=df['Match #'], y=df['Climb'], name="Climb Points"),
+    go.Scatter(x=df['Match #'], y=df['Climb'], name="Climb Level",
+               hovertemplate='%{y}',
+),
     secondary_y=False,
 )
 
+
 fig.add_trace(
-    go.Scatter(x=df['Match #'], y=df['Upper Cargo Scored.1'], name="Teleop Upper Cargo Scored"),
+    go.Scatter(x=df['Match #'], y=df['Upper Cargo Scored.1'], name="Teleop Upper Cargo Scored",
+               hovertemplate='%{y}',
+),
     secondary_y=True,
 )
 
@@ -67,7 +72,13 @@ fig.update_yaxes(
 fig.update_xaxes(title_text="Match")
 
 # Set y-axes titles
-fig.update_yaxes(title_text="<b>Climb Points</b>", secondary_y=False)
+fig.update_yaxes(title_text="<b>Climb Level</b>", secondary_y=False)
 fig.update_yaxes(title_text="<b>Teleop Upper Cargo Balls</b>", secondary_y=True)
+# fig.update_traces(hovertemplate=
+                #   '<b>Match %{x}</b><br></br>')
+                #   'Climb Level: %{y}')
+fig.update_xaxes(hoverformat='Match #: %{x}')
 fig.update_layout(hovermode='x unified')
+fig.update_xaxes(showspikes=True)
+fig.update_yaxes(showspikes=True)
 fig.show()

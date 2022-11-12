@@ -1,0 +1,703 @@
+Initials,Team Number,Match Number,Robot Position,Starting Location,No Show,Taxied,Auto Upper Hub Scored,Auto Upper Hub Missed,Auto Lower Hub Scored,Upper Hub Scored,Lower Hub Scored,Was Defended,Climb,Robot Disabled?,Comments
+Ed,836,1,r1,undefined,FALSE,TRUE,2,0,0,10,0,FALSE,3,FALSE,
+,,,,,,,,,,,,,,,Full size robot. Shot well. High climb night be limit.
+CM,2363,1,r3,undefined,FALSE,TRUE,5,0,0,15,0,FALSE,2,FALSE,undefined
+elp,4638,1,b1,undefined,FALSE,TRUE,1,0,0,1,0,FALSE,3,FALSE,rough start for scouting
+,,,,,,,,,,,,,,,
+DD,3748,1,b3,undefined,FALSE,TRUE,0,0,0,0,9,FALSE,2,FALSE,"Can only shoot low, doesn't even shoot accurately"
+Ed,623,2,r1,undefined,FALSE,TRUE,1,1,0,5,0,TRUE,4,TRUE,
+AC,4821,2,r2,undefined,FALSE,TRUE,2,0,0,7,0,FALSE,x,FALSE,undefined
+DD,5587,2,r3,middle,FALSE,TRUE,3,0,0,10,0,FALSE,f,FALSE,"Very aggressive, shot 3 balls in one go for auto, wicked shooter"
+IB,6194,2,b1,right,FALSE,TRUE,0,0,4,3,5,FALSE,2,FALSE,"I’m new to this, info may be inaccurate"
+,,,,,,,,,,,,,,,
+Cm,1610,2,b3,undefined,FALSE,TRUE,1,0,0,3,10,FALSE,2,FALSE,undefined
+Ed,3939,3,r1,undefined,FALSE,TRUE,2,0,0,7,0,FALSE,f,FALSE,Only shoots from hub.slow intake
+AC,1719,3,r2,undefined,FALSE,TRUE,0,0,0,0,0,FALSE,x,FALSE,Squib shots and bounce outs as well as missing high goals
+IB,2068,3,r3,undefined,FALSE,TRUE,3,0,0,3,0,FALSE,2,FALSE,undefined
+DD,1908,3,b1,undefined,FALSE,TRUE,2,0,0,6,2,FALSE,2,FALSE,Not as good as last competition
+elp,4099,3,b2,right,FALSE,FALSE,3,0,0,8,0,FALSE,4,FALSE,"mobile, good auto"
+Cm,2186,3,b3,middle,FALSE,TRUE,0,0,0,0,0,FALSE,x,FALSE,Looked like thier drive train wasn't working the best
+Ed,2377,4,r1,undefined,FALSE,TRUE,2,0,0,6,0,FALSE,x,FALSE,Was stuck for 20 seconds. Slow intake accurate shooter
+NS,2199,4,r2,right,FALSE,TRUE,0,0,0,0,0,FALSE,3,FALSE,Seemed to have difficulty indexing/in taking. Attempted one shot in the high goal that bounced out and didn't score.
+IB,7770,4,r3,middle,FALSE,FALSE,1,0,0,0,1,FALSE,2,FALSE,undefined
+DD,5338,4,b1,right,FALSE,TRUE,0,0,2,0,9,TRUE,f,TRUE,"Very weak shots, only shot low shots"
+elp,4472,4,b2,middle,FALSE,FALSE,2,0,0,6,0,TRUE,3,TRUE,had a period of stand still
+Cm,614,4,b3,left,FALSE,TRUE,2,0,0,0,6,FALSE,x,FALSE,Bot seems very top heavy
+Ed,5804,5,r1,middle,FALSE,TRUE,1,1,0,4,0,FALSE,4,FALSE,Missed half it's shots.good climb in 22 second
+Bw,6802,5,r2,undefined,FALSE,TRUE,1,1,0,0,4,FALSE,f,FALSE,"Intake got screwed up, top heavy failed climb Bc another swinging robot"
+IB,8622,5,r3,right,FALSE,TRUE,1,0,0,1,0,FALSE,x,FALSE,undefined
+DD,5724,5,b1,undefined,FALSE,TRUE,2,0,0,6,0,TRUE,2,TRUE,ACCURATE especially with long shots (not so great under pressure)
+elp,1086,5,b2,middle,FALSE,TRUE,0,0,0,5,0,TRUE,2,TRUE,vomit command dysfunctional
+Cm,401,5,b3,right,FALSE,TRUE,3,0,0,7,0,FALSE,4,FALSE,
+Ed,6326,6,r1,middle,FALSE,TRUE,1,0,0,7,0,FALSE,x,FALSE,undefined
+AC,1731,6,r2,right,FALSE,TRUE,3,0,0,7,0,FALSE,4,FALSE,Fast shooter & sturdy climb
+IB,5549,6,r3,left,FALSE,TRUE,0,1,0,7,0,FALSE,2,FALSE,undefined
+DD,1123,6,b1,middle,FALSE,TRUE,0,0,0,0,12,FALSE,1,FALSE,"Slow, only shoots low goals"
+elp,4242,6,b2,undefined,FALSE,TRUE,0,0,0,0,3,FALSE,3,FALSE,got stuck with red cargo
+Cm,8592,6,b3,right,FALSE,TRUE,1,1,1,8,0,FALSE,f,FALSE,
+Ed,7429,7,r1,right,FALSE,TRUE,2,0,0,7,0,FALSE,2,FALSE,undefined
+Bw,422,7,r1,middle,FALSE,TRUE,2,0,0,9,0,FALSE,4,FALSE,"Solid gameplay, pushed around a bit by stags"
+IB,1885,7,r3,left,FALSE,TRUE,1,0,0,8,0,FALSE,x,FALSE,undefined
+DD,1262,7,b1,right,FALSE,TRUE,0,0,0,2,3,TRUE,x,TRUE,"Cannot shoot very well, missed every high shot but 2"
+elp,1895,7,b2,undefined,FALSE,TRUE,0,0,0,7,0,FALSE,2,FALSE,missed cargo in auto
+Cm,4286,7,b3,middle,FALSE,TRUE,0,0,1,0,6,FALSE,2,FALSE,Top heavy
+Ed,1111,8,r1,right,FALSE,TRUE,0,0,0,17,0,FALSE,1,FALSE,Attempte low climb too late
+NS,1629,8,r2,middle,FALSE,TRUE,1,0,0,8,1,FALSE,3,FALSE,Shoots consistently but only when its flushed against the hub
+TR,620,8,r3,undefined,FALSE,FALSE,1,0,0,1,0,FALSE,4,FALSE,Shooter was consistently short. Many shots missed
+ ,,,,,,,,,,,,,,,
+elp,122,8,b1,middle,FALSE,TRUE,1,0,0,9,0,FALSE,x,FALSE,"not super accurate shooting, balls get pushed away by chassis"
+Cm,449,8,b3,left,FALSE,FALSE,0,0,2,6,0,FALSE,2,FALSE,EXTREMELY unstable almost tipped going over cable covers
+Ed,6504,9,r1,middle,FALSE,TRUE,0,0,1,0,3,FALSE,f,FALSE,Attempte mid climb too late
+NS,1727,9,r2,right,FALSE,FALSE,0,2,0,0,0,FALSE,4,FALSE,Didn’t make any shots
+TR,1599,9,r3,undefined,FALSE,FALSE,0,0,0,5,0,TRUE,1,TRUE,"Shooter was pretty accurate, climbing was inefficient."
+DD,888,9,b1,middle,FALSE,TRUE,0,1,0,7,0,TRUE,3,TRUE,Wonderful defense and shooting
+elp,4541,9,b2,undefined,FALSE,TRUE,0,0,0,1,0,FALSE,f,FALSE,attempted traversal and fell
+Cm,612,9,b3,right,FALSE,TRUE,0,0,1,0,2,FALSE,4,FALSE,
+Ed,3136,10,r1,left,FALSE,TRUE,2,0,0,8,2,FALSE,2,FALSE,
+BN,2421,10,r2,right,FALSE,TRUE,0,0,0,0,0,FALSE,4,FALSE,"Not strong in shooting, very strong in climbing"
+TR,3274,10,r3,middle,FALSE,FALSE,0,0,1,0,0,FALSE,2,FALSE,"Heavy on defense, but defense was effective."
+DD,2537,10,b1,middle,FALSE,TRUE,0,0,0,3,0,TRUE,2,TRUE,Lots of overshooting
+elp,2914,10,b2,undefined,FALSE,TRUE,2,0,0,3,0,FALSE,2,FALSE,steady and reliable
+Cm,384,10,b3,right,FALSE,TRUE,3,0,0,4,0,FALSE,x,FALSE,Robot was under heavy defense
+,,,,,,,,,,,,,,,
+BN,4821,11,r2,undefined,FALSE,TRUE,1,1,0,1,3,FALSE,2,FALSE,Not particularly strong in any area
+TR,686,11,r3,right,FALSE,FALSE,0,3,0,0,7,FALSE,4,FALSE,"Really effective feeding mechanism, but almost tipped over. No shots made for high basket."
+DD,836,11,b1,right,FALSE,TRUE,1,0,0,5,1,FALSE,3,FALSE,Not very accurate
+elp,4638,11,b2,middle,FALSE,TRUE,1,0,0,6,0,TRUE,3,TRUE,"attempted traversal, arms could not reach. slow shooter"
+Cm,2377,11,b3,left,FALSE,FALSE,2,0,0,9,0,FALSE,f,FALSE,
+HS,1086,12,r1,middle,FALSE,TRUE,1,1,0,0,0,FALSE,2,FALSE,"Shooter didn't work, very good driver"
+BN,2068,12,r2,undefined,FALSE,TRUE,2,0,0,6,0,FALSE,2,FALSE,Fairly good at shooting
+TR,8230,12,r3,right,FALSE,FALSE,0,0,0,3,0,FALSE,1,FALSE,"Feeder ineffective, did not attempt to climb until last second"
+DD,2199,12,b1,middle,FALSE,TRUE,1,0,0,1,0,FALSE,x,FALSE,"Fell over, maybe too topheavy? The match was war."
+elp,401,12,b2,right,FALSE,TRUE,3,0,0,6,0,TRUE,x,TRUE,"missed high and hung on by one hook transversal, very heavily defended"
+Cm,623,12,b3,left,FALSE,TRUE,2,0,0,4,0,FALSE,4,FALSE,Robot had a part fall off
+ATH,2186,13,r1,right,FALSE,TRUE,1,0,0,1,0,FALSE,x,FALSE,Not that good accuracy
+BN,5549,13,r2,undefined,FALSE,TRUE,0,1,0,1,0,FALSE,2,FALSE,"Weak at shooting, average at climbing"
+TR,8592,13,r3,middle,FALSE,TRUE,2,0,0,4,0,TRUE,2,TRUE,Robot a bit unstable
+DD,5804,13,b1,middle,FALSE,FALSE,0,0,0,7,1,TRUE,f,TRUE,Fell twice on the climb
+elp,5587,13,b2,right,FALSE,TRUE,3,0,0,8,0,TRUE,x,TRUE,"intake broke, failed climb twice and fell devastating"
+Cm,6194,13,b3,left,FALSE,TRUE,0,0,0,0,2,FALSE,f,FALSE,Top heavy
+HS,6802,14,r1,right,FALSE,TRUE,1,0,0,6,0,FALSE,2,FALSE,"Slow shooter, fast intake, tank drive"
+BN,3939,14,r2,middle,FALSE,FALSE,1,0,0,5,0,FALSE,2,FALSE,"Fairly good at shooting, average at climb"
+TR,1610,14,r3,left,FALSE,TRUE,1,0,1,7,1,TRUE,2,TRUE,"Shooting pretty accurate, driver seemed uncomfident."
+DD,1885,14,b1,undefined,FALSE,TRUE,2,0,0,10,0,FALSE,4,FALSE,"Accurate, nice intake, climb is wonderful"
+elp,8622,14,b2,right,FALSE,TRUE,1,0,0,6,0,FALSE,f,FALSE,bad communication was block at ground at low rung
+Cm,8726,14,b3,middle,FALSE,TRUE,1,0,0,9,0,FALSE,f,FALSE,
+ATH,6326,15,r1,left,FALSE,TRUE,1,0,0,5,0,TRUE,x,TRUE,Decent accuracy
+BN,4472,15,r2,middle,FALSE,TRUE,0,2,0,1,0,FALSE,3,FALSE,"Good at shooting when it did shoot,  spent most of teleop spinning around looking for cargo though. Good at climbing"
+TR,3748,15,r3,right,FALSE,FALSE,0,0,0,0,5,TRUE,f,TRUE,Robot seemed unsure of where to go. Driver unfomdifent. No attempt at high basket
+DD,1111,15,b1,right,FALSE,TRUE,1,0,0,9,0,FALSE,f,FALSE,"Not bad shooting, but slow climb"
+elp,1731,15,b2,undefined,FALSE,TRUE,0,1,0,6,0,FALSE,4,FALSE,seemed generally unstable and a lot of cargo hit inside edge of goal and bounced out
+Cm,1262,15,b3,middle,FALSE,FALSE,1,0,0,0,0,FALSE,f,FALSE,
+HS,4242,16,r1,undefined,FALSE,TRUE,2,0,0,3,2,FALSE,2,FALSE,Inefficient
+BN,612,16,r2,middle,FALSE,TRUE,0,0,0,0,0,FALSE,x,FALSE,Has claw arm instead of shooter so can only get cargo in low goal. Something happened to arm so they played defense for whole match
+TR,4099,16,r3,right,FALSE,TRUE,3,0,0,8,0,FALSE,4,FALSE,Shooter incredibly accurate. Climbing very fast. Did not miss a single shot during teleop.
+DD,614,16,b1,middle,FALSE,TRUE,0,0,0,6,0,FALSE,3,FALSE,Just stopped for a while for some reason
+elp,888,16,r1,undefined,FALSE,FALSE,0,0,0,5,0,FALSE,4,FALSE,"generally alright, could be more accurate shooting"
+Cm,2363,16,b3,right,FALSE,TRUE,4,0,0,12,0,FALSE,2,FALSE,undefined
+HS,4286,17,r1,middle,FALSE,TRUE,0,0,1,0,1,FALSE,x,FALSE,"Bad intake, timid driving"
+BN,384,17,r2,right,FALSE,TRUE,0,3,0,8,0,TRUE,2,TRUE,Overshot first few cargo but rather than that strong at shooting. We're defended some during Teleop
+TR,1599,17,r3,left,FALSE,TRUE,1,0,1,2,2,FALSE,f,FALSE,Shooting not very accurate. Robot Aetna not strong enough to hang.
+DD,2537,17,b1,undefined,FALSE,TRUE,0,1,0,6,0,TRUE,2,TRUE,"Slow intake, but much better than last match"
+elp,1629,17,b2,right,FALSE,FALSE,1,0,0,3,0,FALSE,4,FALSE,taxied but came back? bumper drag slowed it down a little
+Cm,122,17,b3,middle,FALSE,FALSE,2,1,0,0,0,FALSE,f,FALSE,Intake or ball tower broke making it switch to defense
+OT,1895,18,r1,middle,FALSE,TRUE,1,1,0,7,0,FALSE,2,FALSE,"Relatively fast movement, Competent driving, Had an efficient shooter and intake."
+,,,,,,,,,,,,,,,
+TR,7429,18,r3,middle,FALSE,TRUE,1,0,0,5,0,FALSE,3,FALSE,Driver seemed to have good control over bot.
+DD,449,18,r1,right,FALSE,TRUE,2,0,0,6,0,FALSE,4,FALSE,"Awesome climb, very accurate"
+elp,1908,18,b2,undefined,FALSE,TRUE,3,0,0,7,0,FALSE,2,FALSE,was caught on low hang bar
+Cm,3136,18,b3,middle,FALSE,TRUE,1,0,0,9,0,FALSE,2,FALSE,
+HS,116,19,r1,middle,FALSE,TRUE,1,0,0,4,0,FALSE,4,FALSE,"Had to restart robot code, inaccurate but efficient, takes a while to aim"
+BN,4541,19,r2,undefined,FALSE,TRUE,1,1,0,2,0,FALSE,4,FALSE,Strong at climbing
+TR,1727,19,r3,right,FALSE,TRUE,0,0,0,1,0,FALSE,x,FALSE,Robot stopped responding with 30 seconds left.
+DD,7770,19,b1,right,FALSE,FALSE,0,0,1,0,4,FALSE,4,FALSE,undefined
+elp,5338,19,r1,undefined,FALSE,FALSE,0,0,1,0,9,FALSE,x,FALSE,seemed generally unstable and about to tip over
+Cm,2421,19,b3,middle,FALSE,TRUE,1,1,0,2,0,FALSE,4,FALSE,Missed ALOT OF SHOTS
+OT,620,20,r1,right,FALSE,TRUE,1,0,0,3,0,FALSE,4,FALSE,"Turret seemed uncalibrated, bumpy driving"
+BN,6504,20,r2,undefined,FALSE,FALSE,0,0,0,0,9,FALSE,2,FALSE,Had intake/arm and focused on scoring in lower goal
+TR,1123,20,r3,middle,FALSE,TRUE,0,0,2,0,5,TRUE,1,TRUE,Was defended for a large portion of match.
+DD,422,20,b1,middle,FALSE,TRUE,2,0,0,2,1,FALSE,4,FALSE,"Fast climb, not many shots"
+wlp,3274,20,b2,undefined,FALSE,TRUE,0,0,1,0,0,FALSE,2,FALSE,slammed into robots about to shoot very good timing
+Cm,2914,20,b3,right,FALSE,TRUE,1,0,0,3,0,FALSE,1,FALSE,
+HS,8230,21,r1,right,FALSE,TRUE,0,0,1,6,0,FALSE,x,FALSE,"Slow driving, balls kept bouncing out"
+BN,6802,21,r2,middle,FALSE,TRUE,1,0,0,6,0,FALSE,x,FALSE,"Fairly good at shooting, did not even attempt climb"
+TR,1885,21,r3,left,FALSE,TRUE,1,0,0,5,0,TRUE,4,TRUE,"Robot got cornered for a bit, amazing climbing mechanism."
+DD,2068,21,b1,undefined,FALSE,TRUE,1,0,0,4,0,FALSE,x,FALSE,Low accuracy
+elp,5587,21,b2,right,FALSE,TRUE,1,1,0,3,0,FALSE,4,FALSE,"went from mid to transversal, never hooked to high, very fast climb"
+Cm,5549,21,b3,middle,FALSE,TRUE,1,0,0,0,0,TRUE,2,TRUE,Bot broke??
+OT,1719,22,r1,middle,FALSE,TRUE,0,0,0,0,0,FALSE,1,FALSE,"Decent driving, get shoved around."
+BN,836,22,r2,right,FALSE,TRUE,3,0,0,10,0,TRUE,3,TRUE,Strong shooter. Was defended for last half of teleop by 1610
+MD,1731,22,r3,undefined,FALSE,TRUE,1,1,0,4,0,TRUE,4,TRUE,Shooter was inaccurate/inconsistent
+DD,1111,22,b1,right,FALSE,TRUE,3,0,0,8,0,FALSE,f,FALSE,"Decent accuracy, but slow climb"
+elp,2199,22,b2,undefined,FALSE,TRUE,1,1,0,6,0,TRUE,4,TRUE,height made it unstable and defense got it close to tipping multiple times
+Cm,1610,22,b3,middle,FALSE,TRUE,1,0,0,2,0,FALSE,1,FALSE,Looked like they didnt wanna shoot
+OT,1262,23,r1,right,FALSE,TRUE,2,1,0,10,0,FALSE,2,FALSE,"Fast driving, Intake can get caught"
+BN,2377,23,r2,undefined,FALSE,TRUE,1,1,0,4,0,FALSE,f,FALSE,Overshot a lot of cargo
+MD,2186,23,r3,middle,FALSE,TRUE,0,1,0,2,0,TRUE,2,TRUE,Shooter inaccurate/inconsistent and bot is slow
+DD,8726,23,b1,middle,FALSE,TRUE,1,0,0,0,0,FALSE,2,FALSE,Intake doesn't work
+elp,623,23,b2,right,FALSE,TRUE,1,0,0,6,0,FALSE,3,FALSE,lost grip on traversal
+Cm,4242,23,b3,left,FALSE,FALSE,1,1,0,6,0,FALSE,3,FALSE,
+,,,,,,,,,,,,,,,
+BN,5804,24,r2,middle,FALSE,TRUE,0,2,0,7,0,FALSE,f,FALSE,"Made it to high rung, fell right at the end of match"
+GMC,122,24,r3,left,FALSE,FALSE,1,1,0,2,0,FALSE,2,FALSE,Missed most shots on high
+,,,,,,,,,,,,,,,
+elp,686,24,b2,right,TRUE,TRUE,0,0,0,0,3,FALSE,2,FALSE,"scout missed auto, tall and unstable, climb was hanging on by one hook"
+Cm,614,24,b3,left,FALSE,FALSE,0,2,0,0,10,FALSE,3,FALSE,Almost tipped on cable cover
+OT,4286,25,r1,middle,FALSE,TRUE,0,0,0,0,8,FALSE,2,FALSE,"Intake is inefficient, slow"
+BN,1629,25,r2,undefined,FALSE,TRUE,2,0,0,9,0,FALSE,4,FALSE,Strong at both shooting and climbing
+,,,,,,,,,,,,,,,
+DD,4099,25,b1,right,FALSE,TRUE,2,0,0,9,0,FALSE,3,FALSE,"Awesome shooting, fast climb (also sick looking bot)"
+elp,3136,25,b2,undefined,FALSE,TRUE,1,1,0,7,0,FALSE,f,FALSE,"not enough time o climb, has ground intake"
+Cm,4821,25,b3,middle,FALSE,FALSE,0,0,0,2,3,FALSE,2,FALSE,
+OT,8592,26,r1,middle,FALSE,TRUE,2,0,0,3,0,FALSE,2,FALSE,"Hard time getting over middle, High arc creates bounce outs"
+BN,1908,26,r2,right,FALSE,TRUE,0,0,0,9,0,FALSE,1,FALSE,undefined
+MD,2537,26,r3,undefined,FALSE,TRUE,0,1,0,2,0,FALSE,2,FALSE,Bot is slow and shooter is inaccurate
+DD,8622,26,b1,right,FALSE,TRUE,1,0,0,5,0,FALSE,1,FALSE,Accurate shots
+elp,1086,26,b2,middle,FALSE,TRUE,0,2,0,5,0,FALSE,2,FALSE,hung to climb by a hook
+Cm,5338,26,b3,left,FALSE,FALSE,0,0,2,0,4,FALSE,f,FALSE,Top heavy
+AW,401,27,R1,FALSE,TRUE,right,TRUE,2,0,0,0,TRUE,4,TRUE,g
+BN,422,27,r2,undefined,FALSE,TRUE,1,1,0,4,1,TRUE,2,TRUE,undefined
+MD,4541,27,r3,middle,FALSE,TRUE,2,0,0,3,0,TRUE,4,TRUE,Kind of slow but a good bot other than that
+DD,449,27,b1,right,FALSE,TRUE,0,0,1,7,0,FALSE,4,FALSE,Very nice high shots
+elp,3939,27,b2,left,FALSE,TRUE,0,0,0,5,0,FALSE,x,FALSE,undefined
+Cm,6194,27,b3,middle,FALSE,TRUE,0,0,1,0,2,FALSE,2,FALSE,undefined
+HS,2363,28,r1,right,FALSE,TRUE,3,0,0,4,0,TRUE,1,TRUE,Intake broke at the beginning of the match due to aggressive defense.
+BN,2914,28,r2,middle,FALSE,TRUE,1,0,0,1,0,FALSE,2,FALSE,undefined
+MD,1895,28,r3,left,FALSE,TRUE,0,0,0,5,0,FALSE,2,FALSE,intake has some problems and bot is kind of slow
+DD,5724,28,b1,middle,FALSE,TRUE,2,0,0,5,0,TRUE,x,TRUE,"Not so accurate, but a lot of shots"
+elp,7770,28,b2,undefined,FALSE,TRUE,0,2,0,2,1,TRUE,4,TRUE,"tall and unstable, got aggressive"
+Cm,1727,28,b3,right,FALSE,TRUE,0,0,0,0,2,FALSE,f,FALSE,Took a big fall from high
+OT,3274,29,r1,left,FALSE,TRUE,0,0,1,0,0,FALSE,x,FALSE,High foul potential
+BN,620,29,r2,right,FALSE,TRUE,0,1,0,6,0,FALSE,3,FALSE,undefined
+MD,7429,29,r3,middle,FALSE,TRUE,1,0,0,4,0,FALSE,2,FALSE,Shooter is inconsistent/inaccurate
+DD,1599,29,b1,left,FALSE,TRUE,1,0,0,0,0,FALSE,4,FALSE,"Very low accuracy, but wonderful climb"
+elp,888,29,b2,right,FALSE,TRUE,0,0,1,5,1,FALSE,f,FALSE,did not aimlessly slam but had good timing
+Cm,4472,29,b3,middle,FALSE,TRUE,2,0,0,7,0,TRUE,x,TRUE,undefined
+HS,4638,30,r1,middle,FALSE,TRUE,1,1,0,3,0,FALSE,4,FALSE,Inefficient intake
+BN,6326,30,r2,right,FALSE,TRUE,1,0,0,3,0,FALSE,x,FALSE,Attempted to score more cargo instead of climb
+MD,1123,30,r3,left,FALSE,FALSE,0,0,0,10,0,FALSE,1,FALSE,Shooter is slow but can consistently get 2 balls into the goal
+DD,6504,30,b1,right,FALSE,TRUE,0,0,2,0,12,FALSE,x,FALSE,Can shoot lots of low shots
+elp,116,30,b2,middle,FALSE,TRUE,1,0,0,7,0,TRUE,4,TRUE,good collection of cargo
+Cm,2421,30,b3,left,FALSE,TRUE,2,0,0,2,0,FALSE,3,FALSE,undefined
+OT,5549,31,r1,left,FALSE,TRUE,2,0,0,4,0,FALSE,2,FALSE,"Sensitive turning, trouble aiming,"
+BN,8230,31,r2,middle,FALSE,TRUE,1,0,0,6,0,FALSE,f,FALSE,undefined
+,,,,,,,,,,,,,,,
+DD,2186,31,b1,middle,FALSE,TRUE,0,1,0,1,0,FALSE,2,FALSE,Not very accurate
+elp,614,31,b2,right,FALSE,TRUE,2,0,2,0,9,FALSE,3,FALSE,efficient in finding cargo and shooting low hub
+Cm,1610,31,b3,left,FALSE,TRUE,0,1,1,3,3,FALSE,1,FALSE,undefined
+OT,1719,32,r1,middle,FALSE,TRUE,0,1,0,0,0,FALSE,2,FALSE,Bad driving
+BN,5587,32,r2,right,FALSE,TRUE,2,0,0,4,0,FALSE,x,FALSE,undefined
+MD,2199,32,r3,left,FALSE,TRUE,1,1,0,2,0,TRUE,4,TRUE,slow and shooter was inconsistent
+DD,122,32,b1,middle,FALSE,TRUE,2,0,0,10,0,FALSE,2,FALSE,"Lots of good shots, slow climb"
+elp,612,32,b2,right,FALSE,FALSE,0,0,1,0,1,FALSE,f,FALSE,"a hook slipped on climb, lost connection or something was stuck in a corner, inefficient intake of a pincher that takes in single cargo only scores low hub"
+Cm,1885,32,b3,undefined,FALSE,TRUE,0,2,0,1,0,FALSE,4,FALSE,undefined
+HS,1086,33,r1,middle,FALSE,TRUE,1,0,0,12,0,FALSE,x,FALSE,"Efficient, fast, accurate, and durable"
+BN,384,33,r2,undefined,FALSE,TRUE,2,0,0,9,0,FALSE,2,FALSE,undefined
+MD,1908,33,r3,right,FALSE,TRUE,2,0,0,9,0,FALSE,x,FALSE,shooter is consistent and accurate
+DD,1262,33,b1,right,FALSE,TRUE,1,2,0,8,0,FALSE,2,FALSE,"Not very accurate, but still lots of points"
+elp,4821,33,b2,middle,FALSE,TRUE,1,0,0,6,2,FALSE,2,FALSE,"shooting can be disrupted with slamming from other robots, slow climber"
+Cm,8726,33,b3,undefined,FALSE,FALSE,0,0,0,1,2,FALSE,x,FALSE,undefined
+HS,6194,34,r1,middle,FALSE,TRUE,0,1,0,0,3,FALSE,2,FALSE,Conveyor system not working
+BN,4541,34,r2,right,FALSE,TRUE,1,1,0,4,0,FALSE,4,FALSE,undefined
+MD,2377,34,r3,left,FALSE,TRUE,0,2,0,7,0,FALSE,x,FALSE,shooter can be very accurate but is somewhat inconsistent
+DD,4286,34,b1,middle,FALSE,TRUE,0,0,1,0,5,FALSE,x,FALSE,Died
+elp,2068,34,b2,right,FALSE,TRUE,1,1,0,5,0,TRUE,x,TRUE,had one hook to climb
+Cm,6802,34,b3,undefined,FALSE,FALSE,1,1,0,8,0,FALSE,2,FALSE,undefined
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+ ,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Cm,401,35,b3,right,FALSE,TRUE,4,0,0,13,0,FALSE,x,FALSE,undefined
+,,,,,,,,,,,,,,,
+TR,5338,36,r2,middle,FALSE,TRUE,0,0,0,0,0,FALSE,2,FALSE,"Didn’t attempt to shoot, defense was not effective."
+,,,,,,,,,,,,,,,
+DD,4472,36,b1,left,FALSE,TRUE,2,1,0,9,0,FALSE,3,FALSE,Very fast climb
+elp,2363,36,b2,right,FALSE,TRUE,4,0,0,14,0,FALSE,2,FALSE,"very good intake, lightning fast mid climb"
+Cm,8622,36,b3,middle,FALSE,TRUE,1,1,0,8,0,FALSE,1,FALSE,Almost tips over everytime it drives forward
+HS,1731,37,r1,middle,FALSE,TRUE,1,2,0,12,0,FALSE,4,FALSE,Very efficient
+TR,5804,37,r2,right,FALSE,TRUE,2,0,0,4,2,FALSE,4,FALSE,Some human error in positioning.
+,,,,,,,,,,,,,,,
+Cm,4638,37,b3,middle,FALSE,TRUE,1,0,0,5,0,FALSE,4,FALSE,
+elp,7429,37,b2,undefined,FALSE,TRUE,3,0,0,8,0,FALSE,x,FALSE,nimble
+BN,4638,37,b1,right,FALSE,TRUE,0,0,0,0,7,FALSE,2,FALSE,undefined
+OT,620,38,r1,left,FALSE,TRUE,1,1,0,3,0,TRUE,f,TRUE,Shooter could somewhat shoot over defense. Easily bullied
+TR,5724,38,r2,middle,FALSE,TRUE,0,1,0,8,0,FALSE,x,FALSE,Accurate and fast shooting.
+MD,4099,38,r3,right,FALSE,TRUE,3,0,0,7,0,TRUE,2,TRUE,Slow shooter but really accurate
+NS,2421,38,b1,undefined,FALSE,TRUE,2,0,0,3,0,FALSE,4,FALSE,Switched partway through the match from cycling to defense. Appeared to have issues with intake
+elp,8592,38,b2,middle,FALSE,FALSE,0,0,0,0,0,TRUE,4,TRUE,spent auto spinning clockwise. you’ve heard of drifting? this one spun. very inefficient cargo collection and could not shoot with any semblance of accuracy
+Cm,3748,38,b3,right,FALSE,TRUE,1,0,0,0,1,FALSE,x,FALSE,They found out thier better at defense then offense.Also they got the other team a foul for pushing 1 of them in the climbing area
+OT,888,39,r1,right,FALSE,TRUE,2,1,0,3,0,TRUE,4,TRUE,Had trouble turning and aligning intake. Lots of bounced out shots.
+TR,1123,39,r2,middle,FALSE,TRUE,0,0,0,0,8,TRUE,f,TRUE,Robot not built for top basket.
+Bw,1895,39,r3,undefined,FALSE,TRUE,2,0,0,4,0,FALSE,x,FALSE,"Double check auto , balls bounce out a LOT from upper, couldn’t climb Bc of 888 being slow"
+NS,836,39,b1,right,FALSE,TRUE,4,0,0,14,0,FALSE,3,FALSE,"Great shooter, made almost every shot, fast robot, relatively quick at climbing"
+elp,6326,39,b2,middle,FALSE,TRUE,0,0,0,6,0,FALSE,x,FALSE,"at one point, got stuck under another robot, nimble, relatively slow shooting"
+,,,,,,,,,,,,,,,
+OT,116,40,r1,middle,FALSE,TRUE,1,0,1,2,0,TRUE,3,TRUE,Fell and recovered on climb.
+TR,3939,40,r2,left,FALSE,TRUE,0,3,0,2,0,TRUE,2,TRUE,Seemed to be targeted by another robot (3274). Blocked from shooting for a time.
+Bw,422,40,r3,right,FALSE,TRUE,0,2,0,7,0,TRUE,x,TRUE,"Under HEAVY defense by 3274, 3374 was extremely effective and knows the pin rules"
+NS,1599,40,b1,right,FALSE,TRUE,1,1,0,4,0,FALSE,4,FALSE,"Very inaccurate shooting, driver spend a lot of time driving with control of two pieces of cargo, climbing was great"
+elp,3274,40,b2,middle,FALSE,TRUE,0,0,0,0,0,FALSE,f,FALSE,"incredibly defensive, will shove and hold robots against  a wall or the goal, never got a foul by refs started counting many times"
+Cm,623,40,b3,left,FALSE,TRUE,2,0,0,8,0,FALSE,3,FALSE,undefined
+OT,1610,41,r1,right,FALSE,TRUE,1,0,0,6,0,FALSE,2,FALSE,Good range on shooter. Missed auto so might not be accurate.
+TR,4821,41,r2,middle,FALSE,TRUE,0,0,0,4,0,FALSE,x,FALSE,Lost control of robot for a time.
+Bw,1086,41,r3,right,FALSE,TRUE,1,2,0,13,0,FALSE,2,FALSE,"Needs work on auto accuracy, super accurate during tele, intook 3 balls and shot them, couldn’t reverse intake"
+NS,2068,41,b1,undefined,FALSE,TRUE,2,0,0,9,0,FALSE,x,FALSE,"Accurate at shooting, driver was good at located cargo"
+elp,122,41,b2,middle,FALSE,TRUE,4,0,0,2,0,FALSE,2,FALSE,"climbed with one hook, intake pushes away cargo"
+Cm,614,41,b3,right,FALSE,TRUE,2,0,0,1,8,FALSE,3,FALSE,undefined
+IB,5587,42,r1,right,FALSE,TRUE,3,0,0,6,0,FALSE,4,FALSE,"5587 has a fantastic auto. Their drivers are pretty good, but definitely missed a few balls."
+DD,8726,42,r2,left,FALSE,TRUE,0,0,0,4,0,FALSE,f,FALSE,
+GC,2537,42,r3,undefined,FALSE,FALSE,0,0,0,2,1,FALSE,2,FALSE,Slow to aim
+TR,5549,42,b1,undefined,FALSE,TRUE,0,0,1,0,4,FALSE,f,FALSE,Shooter didn’t seem to work properly.
+elp,4541,42,b2,right,FALSE,TRUE,1,1,0,3,0,FALSE,4,FALSE,"inaccurate shooting, had trouble going over wire bump in field, reliable climbing"
+Cm,1719,42,b3,middle,FALSE,TRUE,0,1,0,1,0,FALSE,2,FALSE,Bad shooter bad intake
+IB,5338,43,r1,middle,FALSE,TRUE,0,0,1,0,9,TRUE,3,TRUE,Top heavy and never made a high goal. 5338 isn’t looking so hot.
+DD,2914,43,r2,left,FALSE,TRUE,2,0,0,0,0,FALSE,1,FALSE,Just took two blue balls and started defending.
+GC,1111,43,r3,right,FALSE,FALSE,1,0,0,7,1,FALSE,3,FALSE,Balls bounce out of intake often
+TR,4286,43,b1,middle,FALSE,TRUE,0,0,1,0,2,TRUE,2,TRUE,"Defense pretty good, only went for two shots."
+elp,401,43,b2,right,FALSE,TRUE,5,0,0,5,0,TRUE,2,TRUE,"something happened with shooting not accurate, needs to avoid defenders to shoot while still"
+Cm,686,43,b3,left,FALSE,TRUE,0,0,2,0,5,FALSE,4,FALSE,
+IB,1262,44,r1,right,FALSE,TRUE,2,0,1,6,1,FALSE,f,FALSE,1262 couldn’t climb in time
+DD,1727,44,r2,middle,FALSE,TRUE,0,0,0,4,0,FALSE,f,FALSE,Review this
+GC,6194,44,r3,left,FALSE,TRUE,0,0,0,0,2,FALSE,f,FALSE,Very top heavy
+TR,5804,44,b1,middle,FALSE,TRUE,1,1,0,11,0,FALSE,4,FALSE,Shooter incredibly accurate and fast. Amazing climbing mechanism.
+elp,6504,44,b2,right,FALSE,TRUE,0,0,0,0,8,FALSE,x,FALSE,not a great scorer and doesn’t play defense
+Cm,3136,44,b3,left,FALSE,TRUE,2,0,0,7,0,FALSE,2,FALSE,undefined
+IB,2363,45,r1,right,FALSE,TRUE,3,0,0,0,0,FALSE,x,FALSE,"Your average defense bot. Mostly moved balls around, started blocking a few shots near the end, wasn’t near enough to save the red alliance."
+DD,1885,45,r2,middle,FALSE,TRUE,0,0,0,1,0,FALSE,4,FALSE,Very fast climb
+GC,4638,45,r3,middle,FALSE,TRUE,1,0,0,2,0,FALSE,4,FALSE,Bad aim
+TR,6802,45,b1,left,FALSE,TRUE,2,0,0,1,2,TRUE,2,TRUE,Feeding system not efficient. Shooter a bit inaccurate. Robot unstable
+elp,1908,45,b2,right,FALSE,TRUE,2,0,0,1,0,TRUE,1,TRUE,"targeted one bot to pin, barely shot"
+Cm,4472,45,b3,middle,FALSE,TRUE,3,1,0,11,0,FALSE,3,FALSE,A good bot needs a better shooter
+IB,7770,46,r1,right,FALSE,TRUE,0,0,1,0,1,FALSE,2,FALSE,
+DD,7429,46,r2,middle,FALSE,TRUE,2,0,0,2,0,FALSE,x,FALSE,
+,,,,,,,,,,,,,,,
+TR,4242,46,b1,left,FALSE,TRUE,0,2,0,0,0,TRUE,3,TRUE,Shooter not firing. Had to switch to defense
+elp,8622,46,b2,middle,FALSE,TRUE,1,0,0,0,0,TRUE,f,TRUE,"top heavy, disabled on the side for some time"
+Cm,836,46,b3,right,FALSE,TRUE,3,2,0,6,0,FALSE,x,FALSE,
+IB,1895,47,r1,left,FALSE,TRUE,1,0,0,2,0,FALSE,2,FALSE,
+DD,3748,47,r2,right,FALSE,TRUE,0,0,0,0,7,FALSE,x,FALSE,"Topheavy, wobbles when it drives"
+GC,116,47,r3,middle,FALSE,TRUE,1,0,0,5,0,FALSE,4,FALSE,Slow cycle Shoots from far
+TR,8230,47,b1,right,FALSE,TRUE,1,0,0,1,0,TRUE,1,TRUE,"Top heavy, feeder did not work well. Didn’t pick up balls"
+elp,8592,47,b2,middle,FALSE,TRUE,2,2,0,6,0,FALSE,2,FALSE,exactly 50% accuarcy
+Cm,3274,47,b3,left,FALSE,TRUE,0,0,0,0,3,FALSE,3,FALSE,Should have played more defense
+IB,384,48,r1,left,FALSE,TRUE,2,0,0,11,0,FALSE,1,FALSE,These people are insanely good at shooting.
+DD,623,48,r2,middle,FALSE,TRUE,1,0,0,1,0,TRUE,f,TRUE,
+GC,4099,48,r3,right,FALSE,TRUE,2,0,0,10,0,TRUE,3,TRUE,Need to be touching hub to shoot. Fast climb. Fast cycle
+TR,6326,48,b1,middle,FALSE,TRUE,0,1,0,3,0,TRUE,x,TRUE,"Intake didn’t seem great, had to go in defense for much of the match. Climbing not attempted"
+elp,449,48,b2,right,FALSE,TRUE,0,0,0,10,0,FALSE,4,FALSE,"shot wrong direction in auto, fast intake, fast climb"
+Cm,620,48,b3,left,FALSE,TRUE,0,2,0,5,0,FALSE,4,FALSE,
+IB,2199,49,r1,left,FALSE,TRUE,0,0,0,3,0,FALSE,x,FALSE,They were knocked over.
+DD,2186,49,r2,middle,FALSE,TRUE,0,2,0,0,0,FALSE,f,FALSE,undefined
+GC,888,49,r3,right,FALSE,TRUE,0,0,0,0,5,FALSE,3,FALSE,Top heavy
+TR,1731,49,b1,middle,FALSE,TRUE,2,2,0,12,0,TRUE,4,TRUE,Best bot I’ve seen. Double sided feeding is amazing. Accurate shooter. Great climber
+elp,2421,49,b2,undefined,FALSE,TRUE,0,2,0,2,0,FALSE,f,FALSE,very ineffective intake
+Cm,422,49,b3,right,FALSE,TRUE,2,0,0,9,0,FALSE,4,FALSE,Knocked over 2199
+IB,3939,50,r1,left,FALSE,TRUE,2,0,0,4,0,FALSE,f,FALSE,Potentially review the auto run
+DD,1599,50,r2,right,FALSE,FALSE,1,0,0,3,0,FALSE,3,FALSE,Not accurate
+GC,5724,50,r3,middle,FALSE,TRUE,1,1,0,8,1,FALSE,2,FALSE,Turret with good aim. Slow cycle
+TR,1123,50,b1,right,FALSE,TRUE,0,0,2,0,11,FALSE,f,FALSE,Feeder very efficient but shooter not made for top basket
+elp,2377,50,b2,undefined,FALSE,TRUE,0,2,0,2,0,FALSE,x,FALSE,very inaccurate shooting consistently overshot
+Cm,612,50,b3,middle,FALSE,FALSE,0,0,1,0,1,FALSE,4,FALSE,
+IB,5587,51,r1,right,FALSE,TRUE,4,0,0,3,0,TRUE,f,TRUE,There turret flew off the top of their bot
+DD,6504,51,r2,middle,FALSE,TRUE,0,0,1,0,4,FALSE,x,FALSE,undefined
+GC,1262,51,r3,left,FALSE,TRUE,1,0,0,6,0,FALSE,2,FALSE,Slow but reliable cycle
+TR,5549,51,b1,middle,FALSE,TRUE,1,0,0,1,1,TRUE,1,TRUE,Shooter took a while to respond
+elp,401,51,b2,right,FALSE,TRUE,5,0,0,2,0,FALSE,2,FALSE,"something happened with movement, could not go forward"
+Cm,5338,51,b3,left,FALSE,TRUE,0,0,0,0,0,FALSE,2,FALSE,undefined
+IB,4821,52,r1,middle,FALSE,TRUE,1,0,0,4,1,FALSE,f,FALSE,Most shots in teleop missed. The only low goal was them missing the High goal.
+DD,614,52,r2,left,FALSE,TRUE,0,1,0,2,0,FALSE,3,FALSE,
+GC,1111,52,r3,undefined,FALSE,FALSE,0,0,0,0,0,FALSE,x,FALSE,undefined
+TR,4541,52,b1,left,FALSE,TRUE,0,0,0,0,0,TRUE,4,TRUE,Played on defense. Good climber
+elp,2537,52,b2,middle,FALSE,TRUE,0,0,0,2,0,FALSE,2,FALSE,slow and inaccurate shooting
+Cm,5804,52,b3,right,FALSE,TRUE,1,1,0,3,0,TRUE,4,TRUE,undefined
+,,,,,,,,,,,,,,,
+MD,1610,53,r2,middle,FALSE,TRUE,1,0,0,15,0,FALSE,f,FALSE,Shooter is slow but really accurate and consistent
+,,,,,,,,,,,,,,,
+OT,2914,53,b1,right,FALSE,TRUE,2,0,0,0,0,FALSE,x,FALSE,"Stopped moving at around 2 minutes, Neither teammates attempted to help"
+,,,,,,,,,,,,,,,
+GS,8726,53,b3,undefined,FALSE,TRUE,0,0,0,3,0,FALSE,2,FALSE,Driver was not very skilled. Shooter was having trouble in autonomous but worked well in teleop.
+HS,4242,54,r1,undefined,FALSE,TRUE,1,0,1,0,1,FALSE,3,FALSE,undefined
+MD,4472,54,r2,middle,FALSE,TRUE,0,1,0,3,2,TRUE,3,TRUE,Shooter can be inconsistent and intake has some trouble picking up balls
+,,,,,,,,,,,,,,,"Made every lower hub shot, slow with small intake"
+BK,8592,54,b1,right,FALSE,TRUE,2,0,0,1,0,FALSE,f,FALSE,Some issues with swerve drive
+ATH,4286,54,b2,middle,FALSE,TRUE,0,1,0,0,8,FALSE,f,FALSE,Only low shots
+GS,1086,54,b3,undefined,FALSE,TRUE,1,1,0,8,0,FALSE,f,FALSE,Shooter made about 50% of shots.
+HS,6326,55,r1,middle,FALSE,TRUE,1,1,0,5,1,FALSE,x,FALSE,Balls kept bouncing out
+MD,686,55,r2,right,FALSE,TRUE,0,0,3,0,13,FALSE,f,FALSE,Good bot but can only get balls into the lower goal and didn't have time to hang
+BK,3274,55,r3,left,FALSE,TRUE,0,0,0,0,0,FALSE,2,FALSE,Very good defense bot. Fast climber
+OT,1908,55,b1,middle,FALSE,TRUE,2,0,0,0,4,TRUE,2,TRUE,"Got bullied, overrated"
+ATH,8230,55,b2,right,FALSE,TRUE,1,1,0,5,0,FALSE,1,FALSE,Not the best accuracy
+GS,1719,55,b3,undefined,FALSE,TRUE,0,1,0,1,1,FALSE,2,FALSE,Shooter was inconsistent and driving wasn’t very skilled. Climb was quick but doesn’t have a traversal option.
+HS,620,56,r1,undefined,FALSE,TRUE,1,0,0,5,0,FALSE,x,FALSE,undefined
+MD,2421,56,r2,middle,FALSE,TRUE,1,1,0,1,0,FALSE,4,FALSE,"Intake has trouble picking up balls and balls can even get stuck, shooter is inconsistent/inaccurate, good at climbing though"
+BK,2199,56,r3,right,FALSE,TRUE,1,0,0,5,1,FALSE,4,FALSE,"Excellent climber, good accuracy. Very top heavy"
+OT,8622,56,b1,left,FALSE,TRUE,0,2,0,4,0,FALSE,1,FALSE,"Very timid slow driving, top Heavy"
+ATH,1895,56,b2,right,FALSE,TRUE,0,1,0,7,0,FALSE,2,FALSE,Intake not that affective
+GS,6194,56,b3,middle,FALSE,TRUE,0,0,0,0,0,FALSE,f,FALSE,Robot was having trouble picking up balls so it played defense. Robot is top-heavt and almost fell over multiple times
+HS,3939,57,r1,undefined,FALSE,TRUE,2,0,0,2,0,FALSE,2,FALSE,"Inefficient, balls kept bouncing out"
+MD,623,57,r2,middle,FALSE,TRUE,1,1,0,5,0,TRUE,3,TRUE,"Intake is kind of slow and shooter can be accurate but is inconsistent, climbing is decent"
+BK,1123,57,r3,right,FALSE,TRUE,0,0,1,0,7,FALSE,1,FALSE,"Slow to turn, lower cargo strategy"
+OT,612,57,b1,left,FALSE,TRUE,0,0,0,0,0,FALSE,2,FALSE,"Poor shooting and intake, Robot is too light to be defense"
+ATH,3748,57,b2,middle,FALSE,TRUE,0,0,1,0,8,FALSE,x,FALSE,Hits hard
+GS,384,57,b3,right,FALSE,TRUE,2,1,0,9,0,TRUE,2,TRUE,Made every shot except for one in autonomous. Robot was fast and picked up balls quickly.
+HS,1727,58,r1,right,FALSE,TRUE,0,1,0,1,0,FALSE,x,FALSE,Primarily defense but not very good at it
+MD,1731,58,r2,left,FALSE,TRUE,1,2,0,8,0,FALSE,4,FALSE,Intake has some problems with balls potentially getting stuck but shooter is good and climbing is good
+BK,888,58,r3,middle,FALSE,TRUE,0,0,3,1,6,TRUE,2,TRUE,"Lower cargo strategy, pretty good climber"
+OT,1885,58,b1,left,FALSE,TRUE,2,0,0,2,0,TRUE,4,TRUE,"Timid diving, with small intake, good weight"
+ATH,2377,58,b2,right,FALSE,FALSE,1,1,0,6,0,FALSE,f,FALSE,Bad accuracy
+GS,5724,58,b3,middle,FALSE,TRUE,1,0,0,12,0,TRUE,f,TRUE,"Shooter was very consistent, making almost every shot when not being defended. Robot ran out of time to finish climbing."
+HS,122,59,r1,undefined,FALSE,TRUE,1,0,1,0,0,FALSE,x,FALSE,"Intake fell off, balls bounced out of goal"
+MD,422,59,r2,middle,FALSE,TRUE,1,1,0,4,0,FALSE,4,FALSE,shooter is inconsistent and intake can have problems but hanging is good
+BK,1599,59,r3,right,FALSE,TRUE,0,1,0,4,1,FALSE,3,FALSE,Some issues with shooting and aiming
+OT,4099,59,b1,left,FALSE,TRUE,2,0,0,7,0,FALSE,4,FALSE,"Extremely fast, had to go to hub to shoot"
+ATH,2363,59,b2,right,FALSE,TRUE,5,0,0,7,0,FALSE,1,FALSE,Intake still messed up
+GS,7770,59,b3,middle,FALSE,TRUE,1,0,0,0,0,FALSE,3,FALSE,Robot either played defense or was moving slowly around the field.
+HS,836,60,r1,right,FALSE,TRUE,5,0,0,10,0,FALSE,3,FALSE,"Average speed, perfect trajectory"
+MD,449,60,r2,left,FALSE,TRUE,2,0,0,14,0,FALSE,4,FALSE,"Shooter is slow but consistent and accurate, hanging is good"
+BK,6802,60,r3,middle,FALSE,TRUE,1,0,0,2,0,FALSE,1,FALSE,"Slow climber, some accuracy issues"
+OT,3136,60,b1,left,FALSE,TRUE,1,1,0,11,0,FALSE,2,FALSE,"Very efficient, intake can get caught, good driving"
+ATH,2186,60,b2,middle,FALSE,TRUE,1,1,0,4,1,FALSE,1,FALSE,Bad accuracy
+GS,116,60,b3,right,FALSE,TRUE,1,0,0,6,0,FALSE,4,FALSE,"Wasn’t very active in autonomous. Shooter made about 50% of shots, but climbing was quick."
+HS,1610,61,r1,middle,FALSE,TRUE,0,2,0,9,0,FALSE,x,FALSE,Efficient shooter and intake
+MD,8726,61,r2,left,FALSE,FALSE,0,0,2,5,0,TRUE,f,TRUE,bot is slow but can be accurate
+BK,4472,61,r3,right,FALSE,TRUE,1,1,0,7,0,FALSE,3,FALSE,Good climber and excellent cargo cycle
+,,,,,,,,,,,,,,,
+ATH,6504,61,b2,middle,FALSE,TRUE,0,1,0,0,4,FALSE,f,FALSE,Bad defense
+GS,4821,61,b3,left,FALSE,TRUE,1,0,0,6,0,FALSE,2,FALSE,"Robot made about 50% of its shots. The intake is small, so it had trouble collecting balls."
+HS,3274,62,r1,undefined,FALSE,TRUE,0,0,0,0,0,FALSE,x,FALSE,Effective and aggressive defense
+MD,1908,62,r2,right,FALSE,FALSE,1,1,0,5,0,TRUE,2,TRUE,"Bot can be accurate but shooter can not be turned, climbing is decent"
+BK,5804,62,r3,middle,FALSE,TRUE,1,1,0,7,0,FALSE,3,FALSE,Weak climber material (broke)
+OT,5587,62,b1,right,FALSE,TRUE,3,1,0,0,0,FALSE,4,FALSE,Intake broke easily on
+ATH,4242,62,b2,left,FALSE,FALSE,1,1,1,0,3,FALSE,3,FALSE,Bad intake
+GS,4286,62,b3,middle,FALSE,TRUE,0,0,1,0,6,TRUE,f,TRUE,Robot was inactive in autonomous after shooting and leaving tarmac. Also very top-heavy.
+GC,1629,63,r1,right,FALSE,TRUE,2,0,0,7,0,FALSE,4,FALSE,Fast intake but no lime light shooter
+BN,5549,63,r2,middle,FALSE,TRUE,0,0,0,2,0,FALSE,1,FALSE,Overshot half or more of cargo they shot
+ATH,2199,63,r3,undefined,FALSE,TRUE,2,0,0,4,2,FALSE,4,FALSE,Not consistent with shots
+DD,4638,63,b1,undefined,FALSE,TRUE,1,0,0,2,0,FALSE,3,FALSE,Low accuracy
+BK,620,63,b2,left,FALSE,TRUE,0,0,0,7,0,FALSE,4,FALSE,Great all around. Fast climbing and shooting
+Cm,1262,63,b3,right,FALSE,TRUE,2,0,0,11,0,FALSE,2,FALSE,You can tip this on the cable guard
+GC,612,64,r1,right,FALSE,TRUE,0,0,1,0,4,FALSE,3,FALSE,Grabber intake/shooter
+BN,6194,64,r2,middle,FALSE,TRUE,0,0,0,0,2,FALSE,f,FALSE,"Very top heavy, cargo would sometimes get stuck in the top when they tried to fire it"
+ATH,2421,64,r3,undefined,FALSE,TRUE,2,0,0,2,0,FALSE,4,FALSE,Bad accuracy great climb
+DD,7429,64,b1,middle,FALSE,TRUE,3,0,0,10,0,FALSE,3,FALSE,"Very accurate, almost 100%"
+BK,5338,64,b2,left,FALSE,TRUE,0,0,2,0,4,FALSE,2,FALSE,Low cargo strategy
+Cm,8230,64,b3,right,FALSE,TRUE,2,0,0,8,0,TRUE,x,TRUE,Got stuck on a cargo last 30 seconds
+GC,2377,65,r1,left,FALSE,TRUE,1,0,0,9,0,FALSE,x,FALSE,Slow cycle. No climb
+BN,2068,65,r2,middle,FALSE,TRUE,0,0,0,0,0,FALSE,f,FALSE,Never fired any cargo
+ATH,1895,65,r3,right,FALSE,TRUE,0,1,0,9,0,FALSE,2,FALSE,Top heavy
+DD,2537,65,b1,left,FALSE,FALSE,2,0,0,3,0,FALSE,x,FALSE,"Very high shots, not very accurate"
+BK,888,65,b2,middle,FALSE,TRUE,3,1,0,2,5,TRUE,4,TRUE,Fast shooting and excellent climbing
+Cm,3748,65,b3,right,FALSE,TRUE,0,0,1,0,3,TRUE,x,TRUE,Looked like ran into technical diffaculties
+,,,,,,,,,,,,,,,
+BN,8622,66,r2,middle,FALSE,TRUE,0,0,0,3,0,FALSE,x,FALSE,undefined
+GC,1731,66,r1,right,FALSE,TRUE,2,2,0,8,0,TRUE,4,TRUE,Intake broke halfway through
+DD,623,66,b1,left,FALSE,TRUE,2,0,0,9,0,FALSE,4,FALSE,Very good at shooting
+BK,1719,66,b2,right,FALSE,TRUE,0,0,1,0,2,FALSE,2,FALSE,Low cargo strategy
+Cm,122,66,b3,middle,FALSE,TRUE,3,0,0,4,0,FALSE,x,FALSE,
+,,,,,,,,,,,,,,,
+BN,2186,67,r2,middle,FALSE,TRUE,1,1,0,0,0,FALSE,2,FALSE,Kept picking up blue cargo during Teleop and got 2 pieces stuck in robot. Played defense for about half of teleop and was pretty effective.
+ATH,2363,67,r3,right,FALSE,TRUE,1,1,0,13,0,TRUE,2,TRUE,Not it's best self
+DD,116,67,b1,middle,FALSE,TRUE,1,0,0,2,0,FALSE,4,FALSE,"Inaccurate, but good climb"
+BK,1123,67,b2,left,FALSE,TRUE,0,0,2,0,10,TRUE,1,TRUE,Low cargo port strategy
+Cm,384,67,b3,right,FALSE,TRUE,3,0,0,3,0,TRUE,2,TRUE,Heavily defended
+GC,6802,68,r1,left,FALSE,TRUE,1,1,0,4,2,FALSE,2,FALSE,Fast climb but can't go higher than mid
+BN,6326,68,r2,middle,FALSE,TRUE,1,0,0,4,0,FALSE,x,FALSE,"Accurate if it gets right next to hub, shooter shoots ball almost straight up"
+ATH,614,68,r3,right,FALSE,TRUE,2,0,0,5,0,TRUE,3,TRUE,Gets pushed around a bit but is mostly accurate
+DD,2914,68,b1,left,FALSE,TRUE,1,0,0,0,0,FALSE,x,FALSE,Disconnected
+BK,1599,68,b2,middle,FALSE,TRUE,0,1,0,5,0,TRUE,4,TRUE,Very good shooter and climber
+Cm,449,68,b3,right,FALSE,TRUE,0,0,4,8,0,FALSE,3,FALSE,
+GC,1086,69,r1,left,FALSE,TRUE,1,1,0,7,1,TRUE,1,TRUE,Doesn't go above mid. Fast intake.
+BN,836,69,r2,right,FALSE,TRUE,3,0,0,12,0,FALSE,3,FALSE,Very accurate shooter
+ATH,7770,69,r3,middle,FALSE,FALSE,0,2,0,0,0,FALSE,4,FALSE,Something broke
+DD,1727,69,b1,middle,FALSE,TRUE,1,0,0,0,0,FALSE,3,FALSE,Probably had shooter problems
+BK,1111,69,b2,right,FALSE,TRUE,2,0,0,0,0,FALSE,x,FALSE,Robot was disabled for almost all of match
+Cm,3939,69,b3,left,FALSE,TRUE,0,2,0,3,0,FALSE,2,FALSE,Looks like it broke
+GC,8592,70,r1,left,FALSE,TRUE,0,0,0,7,0,FALSE,f,FALSE,Fast and far shooter. Inefficient intake
+BN,4099,70,r2,right,FALSE,TRUE,0,0,0,8,0,FALSE,4,FALSE,"Pretty good shooter, really good climber"
+ATH,422,70,r3,middle,FALSE,TRUE,1,0,0,6,0,FALSE,4,FALSE,Not a great autonomous
+DD,686,70,b1,right,FALSE,TRUE,0,0,3,0,7,FALSE,4,FALSE,Intake broke
+BK,3136,70,b2,middle,FALSE,TRUE,1,0,0,7,0,FALSE,x,FALSE,Fairly good shooting and driving
+Cm,1885,70,b3,left,FALSE,FALSE,0,1,0,12,0,FALSE,4,FALSE,
+GC,1629,71,r1,left,FALSE,TRUE,2,0,0,9,1,FALSE,3,FALSE,Had to at hub to shoot
+BN,5587,71,r2,right,FALSE,TRUE,2,2,0,1,0,FALSE,3,FALSE,Good climber
+ATH,1908,71,r3,middle,FALSE,TRUE,2,0,0,8,0,TRUE,2,TRUE,Easily pushed
+DD,8230,71,b1,right,FALSE,TRUE,2,0,0,5,0,FALSE,f,FALSE,
+BK,5804,71,b2,left,FALSE,TRUE,2,0,0,4,0,FALSE,4,FALSE,Excellent climbing and good shooting
+Cm,4472,71,b3,middle,FALSE,TRUE,2,1,0,7,0,FALSE,f,FALSE,Looked like only 1 telescope worked
+GS,612,72,r1,right,FALSE,TRUE,0,0,0,0,3,FALSE,3,FALSE,Climbed to high bar but then had issues. Robot’s intake was slow to collect balls and could only hold 1 at a time.
+TR,1610,72,r2,undefined,FALSE,TRUE,1,1,0,7,8,FALSE,1,FALSE,"Very versatile bot, driver seemed unconfident"
+MD,2537,72,r3,middle,FALSE,TRUE,0,0,0,0,0,FALSE,2,FALSE,Bot must be turned in the right direction to shoot and they played defense most of the time
+HS,3748,72,b1,undefined,TRUE,FALSE,0,0,0,0,0,FALSE,x,FALSE,undefined
+CM,6194,72,b2,undefined,FALSE,TRUE,0,0,0,0,1,FALSE,x,FALSE,Shooter seemed nonfunctional. Top-heavy
+Cm,4242,72,b3,right,FALSE,TRUE,1,1,0,0,6,FALSE,3,FALSE,
+GS,122,73,r1,middle,FALSE,TRUE,2,0,0,3,0,TRUE,2,TRUE,Shooter made about 50% of shots.
+TR,5724,73,r2,right,FALSE,TRUE,1,0,0,12,0,TRUE,1,TRUE,Responded very well to defense
+MD,5338,73,r3,left,FALSE,TRUE,0,0,2,0,7,FALSE,3,FALSE,Consistently scores low goals and is decent at climbing
+HS,2068,73,b1,right,FALSE,TRUE,1,0,0,4,0,FALSE,x,FALSE,Untuned swerve drive
+AW,3274,73,b2,FALSE,FALSE,undefined,TRUE,0,0,1,0,FALSE,0,FALSE,x
+Cm,4638,73,b3,left,FALSE,TRUE,2,0,0,0,6,FALSE,3,FALSE,undefined
+GS,8622,74,r1,middle,FALSE,TRUE,1,0,0,0,0,FALSE,x,FALSE,
+TR,401,74,r2,right,FALSE,FALSE,0,0,0,5,0,TRUE,2,TRUE,Got pushed around a lot by 1731. Did not pick up balls quickly
+,,,,,,,,,,,,,,,
+HS,4541,74,b1,middle,FALSE,TRUE,2,2,0,10,0,FALSE,4,FALSE,Extremely effective at both offence and defense
+AW,384,74,b2,FALSE,FALSE,right,TRUE,2,0,1,0,FALSE,7,FALSE,x
+Cm,1731,74,b3,right,FALSE,TRUE,3,0,0,7,0,FALSE,4,FALSE,undefined
+AW,2421,75,r1,undefined,FALSE,TRUE,3,0,0,0,0,FALSE,x,FALSE,
+TR,1719,75,r2,middle,FALSE,TRUE,0,0,1,0,5,TRUE,2,TRUE,Defense was good but got pushed around a lot too. Didn’t go for high basket
+MD,2914,75,r3,right,FALSE,TRUE,1,0,0,5,0,TRUE,x,TRUE,shooter can be accurate but is slow and intake has problems getting balls
+DD,1599,75,b1,left,FALSE,TRUE,2,0,0,4,0,FALSE,4,FALSE,"Very fast, efficient climb"
+AW,1895,75,b2,undefined,FALSE,TRUE,3,0,0,0,0,FALSE,x,FALSE,
+Cm,4821,75,b3,middle,FALSE,TRUE,1,0,0,7,0,FALSE,2,FALSE,undefined
+GS,623,76,r1,left,FALSE,TRUE,3,0,0,6,0,TRUE,4,TRUE,"Intake and shooter work well, and robot was quick"
+TR,1111,76,r2,right,FALSE,TRUE,1,0,0,16,0,TRUE,1,TRUE,Shooter very accurate.
+MD,7429,76,r3,middle,FALSE,TRUE,0,1,0,8,0,FALSE,2,FALSE,"shooter is consistent but bot has to be turned around to shoot, decent at climbing"
+DD,6504,76,b1,left,FALSE,TRUE,0,2,0,1,0,FALSE,f,FALSE,Non efficient shooter
+AW,2199,76,b2,middle,FALSE,TRUE,0,2,0,2,0,FALSE,2,FALSE,undefined
+Cm,6802,76,b3,left,FALSE,TRUE,0,2,0,1,0,FALSE,2,FALSE,undefined
+GS,614,77,r1,right,FALSE,TRUE,1,0,0,0,0,FALSE,2,FALSE,Kept the opponents’ top robot from shooting.
+TR,8726,77,r2,left,FALSE,TRUE,0,1,0,4,0,TRUE,x,TRUE,Driver seemed inexperienced
+MD,8592,77,r3,middle,FALSE,TRUE,2,2,0,5,0,TRUE,2,TRUE,"Shooter is accurate and consistent a lot of balls bounced out of the goal, can only reach the mid bar in climbing"
+DD,1727,77,b1,middle,FALSE,TRUE,1,0,0,2,0,FALSE,3,FALSE,"Balls go in the hoop and bounce out, climb not bad"
+AW,422,77,b2,left,FALSE,TRUE,2,1,0,6,0,FALSE,x,FALSE,Fast swerve drive
+Cm,836,77,b3,right,FALSE,TRUE,3,2,0,8,0,TRUE,x,TRUE,We want to team with 836
+GS,1885,78,r1,left,FALSE,TRUE,11,0,0,0,0,FALSE,4,FALSE,Shooting was very consistent but intake is small and difficult to grab balls.
+TR,4099,78,r2,right,FALSE,FALSE,0,0,0,11,0,FALSE,3,FALSE,Did not move in auto phase
+MD,1262,78,r3,middle,FALSE,TRUE,1,0,0,15,0,FALSE,x,FALSE,"Shooter is consistent and accurate, didn't attempt a climb"
+DD,7770,78,b1,left,FALSE,FALSE,0,0,1,0,3,FALSE,2,FALSE,Fell off the traversal
+AW,1123,78,b2,right,FALSE,FALSE,0,0,2,0,6,FALSE,x,FALSE,"Shoots at low, not high cargo"
+Cm,2186,78,b3,middle,FALSE,TRUE,1,0,0,3,0,FALSE,x,FALSE,undefined
+GS,888,79,r1,left,FALSE,FALSE,0,1,0,0,8,FALSE,3,FALSE,"Shooting into lower hub was consistent, and intake was very smooth."
+TR,4286,79,r2,middle,FALSE,TRUE,0,1,0,0,9,FALSE,2,FALSE,Had an issue picking up cargo and get to the goal.
+MD,449,79,r3,right,FALSE,TRUE,0,0,4,9,0,TRUE,f,TRUE,"Shooter is consistent and accurate but slow, climbers have problems"
+DD,686,79,b1,left,FALSE,TRUE,0,0,2,0,6,FALSE,4,FALSE,Decent climb
+AW,1086,79,b2,right,FALSE,FALSE,0,1,0,11,0,FALSE,2,FALSE,Good shooting :)
+Cm,3939,79,b3,middle,FALSE,TRUE,0,1,0,4,0,FALSE,2,FALSE,undefined
+GS,3136,80,r1,left,FALSE,TRUE,1,1,0,3,0,TRUE,x,TRUE,Intake was small and the robot couldn’t get most of the balls they passed
+TR,5549,80,r2,right,FALSE,TRUE,1,0,0,0,0,FALSE,2,FALSE,Shooter was very inconsistent.
+MD,620,80,r3,middle,FALSE,TRUE,1,1,0,8,0,FALSE,4,FALSE,"Shooter is decent, climber is really good"
+DD,2377,80,b1,left,FALSE,TRUE,1,0,0,6,1,FALSE,x,FALSE,
+AW,2363,80,b2,right,FALSE,TRUE,2,1,0,8,1,FALSE,1,FALSE,Fast swerve drive and retractable intake
+Cm,6326,80,b3,middle,FALSE,TRUE,1,0,0,4,0,TRUE,x,TRUE,undefined
+GS,4638,81,r1,left,FALSE,TRUE,0,1,0,3,1,FALSE,4,FALSE,Climbing was very slow but they got traversal. The shooter was very inconsistent.
+TR,122,81,r2,middle,FALSE,TRUE,1,0,0,10,1,FALSE,x,FALSE,Nice buzzer beater. Shooter pretty accurate
+MD,4541,81,r3,right,FALSE,TRUE,0,1,0,3,0,FALSE,4,FALSE,"Shooter is inconsistent, intake has problems taking in balls, climbing is good"
+DD,8230,81,b1,right,FALSE,TRUE,0,2,0,6,0,FALSE,x,FALSE,Inaccurate
+AW,5724,81,b2,middle,FALSE,TRUE,0,2,0,3,0,FALSE,3,FALSE,
+Cm,4242,81,b3,left,FALSE,TRUE,2,0,0,0,5,FALSE,3,FALSE,undefined
+GS,4472,82,r1,left,FALSE,TRUE,2,0,0,12,0,FALSE,2,FALSE,"Shooter made about 75% of shots, and intake was smooth. Driver seemed skilled."
+TR,612,82,r2,middle,FALSE,FALSE,0,0,0,0,0,FALSE,f,FALSE,"Piece of cargo stuck on robot, could not shoot at all. Fell from climb"
+MD,5587,82,r3,right,FALSE,TRUE,2,1,0,5,0,TRUE,f,TRUE,"Shooter is decent, had a lot of problems with climbing"
+DD,1895,82,b1,left,FALSE,TRUE,0,0,0,4,0,FALSE,2,FALSE,Bad intake
+BK,384,82,b2,right,FALSE,TRUE,2,0,0,13,0,FALSE,1,FALSE,Very good shooter
+Cm,2421,82,b3,middle,FALSE,TRUE,0,1,0,3,0,TRUE,3,TRUE,undefined
+GC,5338,83,r1,right,FALSE,TRUE,0,0,1,0,8,FALSE,f,FALSE,Top heavy
+BN,2199,83,r2,undefined,FALSE,TRUE,1,1,0,2,2,FALSE,f,FALSE,undefined
+IB,1599,83,r3,middle,FALSE,TRUE,1,0,0,10,0,FALSE,4,FALSE,undefined
+ATH,1610,83,b1,undefined,FALSE,TRUE,2,0,0,7,2,FALSE,f,FALSE,Bad accuracy
+BK,3748,83,b2,right,FALSE,TRUE,0,0,0,0,5,TRUE,2,TRUE,Very fast loading of cargo
+Cm,5804,83,b3,middle,FALSE,TRUE,0,1,0,5,0,FALSE,4,FALSE,undefined
+GC,422,84,r1,middle,FALSE,TRUE,1,0,0,6,0,FALSE,4,FALSE,Trouble tracking balls
+BN,623,84,r2,undefined,FALSE,TRUE,1,1,0,7,0,FALSE,4,FALSE,undefined
+IB,1908,84,r3,right,FALSE,TRUE,2,0,0,1,0,FALSE,2,FALSE,undefined
+ATH,1111,84,b1,undefined,FALSE,TRUE,2,0,0,14,0,FALSE,1,FALSE,Great accuracy big bot maneuvers well
+BK,2537,84,b2,middle,FALSE,TRUE,1,0,0,0,0,FALSE,2,FALSE,Some issues with driving
+Cm,836,84,b3,right,FALSE,TRUE,3,0,0,10,0,TRUE,3,TRUE,undefined
+GC,614,85,r1,left,FALSE,FALSE,0,2,0,6,0,FALSE,3,FALSE,Powerful ramming
+BN,1262,85,r2,right,FALSE,TRUE,2,1,0,9,0,FALSE,2,FALSE,Pretty accurate shooter
+IB,1123,85,r3,middle,FALSE,TRUE,0,0,0,0,8,FALSE,1,FALSE,"Near the very end of the match, they appeared to lose part of their robot."
+ATH,6802,85,b1,undefined,FALSE,TRUE,0,2,0,5,0,FALSE,f,FALSE,Top heavy not a good shooter
+BK,6194,85,b2,middle,FALSE,TRUE,0,0,0,0,6,TRUE,f,TRUE,"Very topheavy, fairly inaccurate shooter"
+Cm,1719,85,b3,right,FALSE,TRUE,0,0,1,0,3,FALSE,1,FALSE,"Driver isnt very good, sacraficing thier own team mayes for an exyra cargo"
+GC,449,86,r1,left,FALSE,FALSE,0,1,0,10,0,FALSE,2,FALSE,Top heavy
+BN,8592,86,r2,middle,FALSE,TRUE,1,1,0,3,0,FALSE,x,FALSE,Almost every cargo they shot bounced out
+IB,4821,86,r3,right,FALSE,TRUE,1,0,0,9,0,FALSE,f,FALSE,
+ATH,1885,86,b1,undefined,FALSE,TRUE,2,0,0,7,0,TRUE,4,TRUE,Bad intake
+BK,2914,86,b2,right,FALSE,TRUE,2,0,0,2,0,FALSE,2,FALSE,Bot wasnt moving for much of the match
+Cm,6504,86,b3,middle,FALSE,TRUE,1,0,0,0,5,FALSE,x,FALSE,
+GC,1731,87,r1,left,FALSE,TRUE,2,0,0,10,0,FALSE,4,FALSE,Good bot
+BN,3136,87,r2,middle,FALSE,TRUE,0,1,0,9,0,FALSE,x,FALSE,
+IB,2363,87,r3,right,FALSE,TRUE,4,0,0,19,0,FALSE,2,FALSE,Triple Helix is godlike
+ATH,3274,87,b1,undefined,FALSE,TRUE,0,0,2,0,4,TRUE,x,TRUE,Great defense against smaller bots
+BK,3939,87,b2,middle,FALSE,TRUE,2,0,0,6,0,TRUE,2,TRUE,Fast cargo cycle and shooting
+Cm,1629,87,b3,right,FALSE,TRUE,1,1,0,10,0,FALSE,3,FALSE,undefined
+GC,401,88,r1,right,FALSE,TRUE,1,0,0,13,0,FALSE,2,FALSE,Broke in match
+BN,7770,88,r2,middle,FALSE,TRUE,0,1,0,0,0,FALSE,4,FALSE,Intake or something with the shooter messed up so they did not shoot for all of teleop
+IB,8726,88,r3,left,FALSE,TRUE,1,0,0,3,0,FALSE,x,FALSE,undefined
+ATH,686,88,b1,undefined,FALSE,TRUE,0,0,0,0,0,FALSE,2,FALSE,Intake broke
+BK,620,88,b2,right,FALSE,TRUE,1,0,0,6,2,TRUE,3,TRUE,Great shooter and climber
+Cm,888,88,b3,middle,FALSE,TRUE,1,0,0,3,8,FALSE,x,FALSE,undefined
+GC,2377,89,r1,right,FALSE,TRUE,2,0,0,4,0,FALSE,f,FALSE,Slow and bad driver
+BN,5549,89,r2,undefined,FALSE,TRUE,1,1,0,3,0,FALSE,f,FALSE,undefined
+IB,116,89,r3,middle,FALSE,TRUE,1,0,0,8,0,FALSE,4,FALSE,undefined
+ATH,7429,89,b1,middle,FALSE,TRUE,1,1,0,3,0,FALSE,2,FALSE,Not the best
+BK,4099,89,b2,right,FALSE,TRUE,2,0,0,6,0,TRUE,4,TRUE,Extremely fast climber and excellent shooter
+Cm,1086,89,b3,left,FALSE,TRUE,1,1,0,6,0,FALSE,1,FALSE,undefined
+GC,2186,90,r1,middle,FALSE,TRUE,0,1,0,5,2,FALSE,f,FALSE,Slow cycle
+BN,4286,90,r2,undefined,FALSE,TRUE,0,0,0,0,8,FALSE,2,FALSE,Can only get cargo in lower hub
+IB,8622,90,r3,right,FALSE,TRUE,0,0,0,0,0,FALSE,f,FALSE,Their intake was broken.
+ATH,1727,90,b1,left,FALSE,TRUE,1,1,0,8,0,FALSE,f,FALSE,Kinda slow not the best driver
+BK,2068,90,b2,right,FALSE,TRUE,1,0,0,6,0,FALSE,x,FALSE,Good aim with shooter
+Cm,6326,90,b3,middle,FALSE,TRUE,1,0,0,0,0,TRUE,2,TRUE,The drive chose to get into shoving matches with other bots
+BN,5804,91,r1,right,FALSE,TRUE,2,0,0,10,0,FALSE,3,FALSE,"Very accurate shooter, good climber"
+TR,4638,91,r2,undefined,FALSE,TRUE,2,0,0,6,0,FALSE,4,FALSE,"Driver seemed unconfident, movement very staggered. Climber efficient but slowish"
+GS,1895,91,r3,middle,FALSE,TRUE,1,0,0,1,0,FALSE,1,FALSE,Intake wasn’t locked and moved when the robot tried to intake balls. Robot struggled to pick up cargo.
+BK,623,91,b1,left,FALSE,TRUE,1,0,0,10,0,TRUE,4,TRUE,Excellent driving and climbing
+DD,1610,91,b2,middle,FALSE,TRUE,1,0,0,10,0,TRUE,1,TRUE,"Very good shooter and driver, intake is not bad because it is rigid"
+Cm,4541,91,b3,right,FALSE,TRUE,2,0,0,3,0,FALSE,4,FALSE,undefined
+BN,384,92,r1,right,FALSE,TRUE,3,0,0,10,0,TRUE,1,TRUE,"Very accurate shooter, was able to still make goals even while being defended. Not a strong climber, only made low rung at last few seconds"
+TR,4242,92,r2,undefined,FALSE,TRUE,1,0,0,1,2,TRUE,3,TRUE,Bot didn’t seem to be going at full speed until halfway though. Took too long to line up shot.
+GS,5338,92,r3,middle,FALSE,TRUE,0,0,1,0,5,FALSE,3,FALSE,Robot was slow and driver wasn’t skilled. Shooting was 100% accurate into lower hub.
+BK,422,92,b1,middle,FALSE,FALSE,2,0,0,10,0,FALSE,4,FALSE,"All around, a very strong bot"
+DD,6802,92,b2,left,FALSE,TRUE,0,2,0,0,2,FALSE,f,FALSE,"Shooting and climb probably broke, but they are good at defense. They tip a lot though"
+Cm,5724,92,b3,right,FALSE,TRUE,2,0,0,9,0,FALSE,3,FALSE,undefined
+BN,122,93,r1,right,FALSE,TRUE,2,0,0,9,0,FALSE,x,FALSE,"Accurate shooter, helped 6194 when they got stuck on low rung"
+TR,6194,93,r2,undefined,FALSE,TRUE,1,0,0,0,0,FALSE,f,FALSE,"Feeder had issues, got stuck on climber, 122 had to push them out."
+GS,2914,93,r3,left,FALSE,TRUE,1,1,0,6,0,FALSE,1,FALSE,Shooting was consistent but slow. Robot disconnected for part of the match.
+BK,4472,93,b1,left,FALSE,TRUE,2,0,0,7,0,FALSE,x,FALSE,Climber malfunctioned at the end of the match. Great shooter
+DD,1262,93,b2,middle,FALSE,TRUE,0,0,0,14,0,FALSE,x,FALSE,"VERY accurate and intake is a brick, cannot be broken"
+Cm,836,93,b3,right,FALSE,TRUE,3,1,0,13,0,FALSE,3,FALSE,It missed like 5 shots but this bot will win!
+BN,3748,94,r1,right,FALSE,TRUE,0,0,1,0,0,FALSE,x,FALSE,"Got a blue cargo in it's intake and played defense for the rest of teleop, extremely top heavy"
+HS,1885,94,r2,undefined,FALSE,TRUE,1,0,0,11,0,TRUE,4,TRUE,"Jittery driving, shouldn't be ranked as high as they are"
+GS,3939,94,r3,middle,FALSE,TRUE,2,0,0,2,0,FALSE,x,FALSE,Robot disconnected multiple times during the match and wasn’t able to climb.
+BK,614,94,b1,right,FALSE,TRUE,2,0,0,1,6,FALSE,3,FALSE,"Fairly slow shooter, but very fast climber"
+DD,1629,94,b2,left,FALSE,TRUE,1,0,0,2,0,TRUE,3,TRUE,"Actually good defense, also decent shots but the bot got defensively overloaded"
+Cm,6504,94,b3,middle,FALSE,TRUE,0,0,0,0,6,FALSE,f,FALSE,The driver seemed like they couldn't decided between offense or defense and they end up hurting thier teams on defense
+BN,8726,95,r1,middle,FALSE,TRUE,1,1,0,4,0,FALSE,f,FALSE,Not a very accurate shooter
+TR,3136,95,r2,undefined,FALSE,TRUE,1,1,0,8,0,FALSE,f,FALSE,Robot seemed to be moving weirdly. Shooter pretty average.
+GS,888,95,r3,right,FALSE,TRUE,2,0,0,0,8,FALSE,f,FALSE,Robot was quick at scoring. Fell when trying to reach traversal.
+BK,1123,95,b1,middle,FALSE,TRUE,0,0,0,0,10,FALSE,1,FALSE,"Good strategy with cargo, but uses lower cargo port"
+DD,1111,95,b2,left,FALSE,TRUE,2,0,0,9,0,FALSE,x,FALSE,"75% accurate and smooth drive, but died in the middle of match"
+Cm,5587,95,b3,right,FALSE,TRUE,3,1,0,5,0,FALSE,4,FALSE,If it had more accuracy it would be a great bot
+BN,401,96,r1,middle,FALSE,TRUE,2,0,0,8,0,FALSE,2,FALSE,"Missed some shots to the left during Teleop, turret wires ripped out again during hanger phase"
+TR,2363,96,r2,right,FALSE,TRUE,4,1,0,14,1,TRUE,2,TRUE,Shooter amazing. No real issues I observed other than being easily defended
+GS,1719,96,r3,left,FALSE,FALSE,0,0,1,0,2,FALSE,1,FALSE,Played defense for most of the match. Was consistent with shots into the lower hub.
+BK,7429,96,b1,middle,FALSE,TRUE,0,0,0,7,0,FALSE,2,FALSE,Good cargo cycle and decent climber
+DD,2377,96,b2,left,FALSE,TRUE,1,0,0,7,0,FALSE,2,FALSE,"Slow, but accurate shots"
+Cm,8592,96,b3,middle,FALSE,TRUE,2,0,0,3,0,FALSE,f,FALSE,Bot seemed to have a drive train problem
+BN,2186,97,r1,middle,FALSE,TRUE,1,0,0,3,0,FALSE,2,FALSE,"Inaccurate shooter, average climber"
+TR,686,97,r2,right,FALSE,TRUE,0,0,3,0,7,TRUE,4,TRUE,Not a fan of the shooter only working for bottom basket. Great climber.
+GS,2068,97,r3,left,FALSE,TRUE,2,0,0,7,0,FALSE,x,FALSE,"Shooting was consistent, making about 60% of shots."
+BK,620,97,b1,left,FALSE,TRUE,1,0,0,0,0,FALSE,4,FALSE,Intake and shooter had frequent issues
+DD,116,97,b2,middle,FALSE,TRUE,1,0,0,6,0,FALSE,4,FALSE,"Accurate, also wickedly fast climb"
+Cm,612,97,b3,right,FALSE,TRUE,0,0,1,0,3,TRUE,f,TRUE,Can only carry 1 ball not very good
+BN,1908,98,r1,right,FALSE,TRUE,2,0,0,8,1,FALSE,2,FALSE,"Pretty accurate shooter, a lot of cargo bounced back out of the hub, can only barely climb mid rung"
+TR,4286,98,r2,left,FALSE,TRUE,0,0,1,0,6,TRUE,2,TRUE,Only shot low baskets
+GS,6326,98,r3,middle,FALSE,TRUE,1,0,0,0,0,FALSE,2,FALSE,Defended for the entire match. Made multiple robots miss their shots
+BK,2421,98,b1,left,FALSE,TRUE,0,1,0,3,0,FALSE,4,FALSE,"Strong climber, decent shooter"
+DD,1599,98,b2,right,FALSE,TRUE,1,1,0,5,0,TRUE,f,TRUE,Fell off climb. Decent accuracy though
+Cm,1086,98,b3,middle,FALSE,TRUE,0,2,0,5,0,FALSE,1,FALSE,Racked up fouls for holding e cargos drivers dont really know the rules
+BN,2537,99,r1,middle,FALSE,TRUE,0,1,0,1,0,FALSE,2,FALSE,"Inaccurate shooter, has intake/shooter"
+TR,1727,99,r2,left,FALSE,TRUE,0,1,0,6,0,TRUE,3,TRUE,Feeder seemed to malfunction throughout
+GS,8230,99,r3,right,FALSE,FALSE,0,0,0,0,0,FALSE,f,FALSE,Played defense for the whole match. Didn’t cause any missed shots but kept other bots from shooting.
+BK,2199,99,b1,right,FALSE,TRUE,0,2,0,1,0,TRUE,4,TRUE,"Very topheavy, subpar shooter, strong climber"
+DD,1731,99,b2,middle,FALSE,TRUE,1,1,0,8,0,TRUE,4,TRUE,Double intake
+Cm,4099,99,b3,left,FALSE,TRUE,1,1,0,13,0,FALSE,f,FALSE,Bot could be stoped with a good defense bot
+BN,8622,100,r1,undefined,FALSE,TRUE,0,1,0,1,0,FALSE,x,FALSE,Disconnected during teleop
+TR,7770,100,r2,middle,FALSE,TRUE,0,0,1,0,1,TRUE,3,TRUE,Kept losing connection and not being able to drive but only turn
+GS,449,100,r3,right,FALSE,TRUE,0,0,3,10,0,FALSE,x,FALSE,100% accuracy during teleop. Robot fell over around 30 seconds left and wasn’t able to climb.
+BK,4821,100,b1,right,FALSE,TRUE,1,0,0,4,0,FALSE,2,FALSE,"Fairly good shooter, great driving"
+,,,,,,,,,,,,,,,
+Cm,5549,100,r3,left,FALSE,TRUE,0,2,0,2,0,FALSE,2,FALSE,Very very slow bot
+BN,6194,101,r1,undefined,FALSE,TRUE,0,1,0,0,0,FALSE,x,FALSE,Was pushed over on its side by alliance member during teleop. Extremely top heavy
+TR,614,101,r2,right,FALSE,TRUE,1,1,0,1,4,TRUE,2,TRUE,"Good shooter, versatile. Autonomous leaned right."
+GS,422,101,r3,middle,FALSE,TRUE,4,0,0,10,0,FALSE,3,FALSE,Made about 90% of shots.
+BK,1629,101,b1,right,FALSE,TRUE,2,0,0,4,0,TRUE,4,TRUE,Excellent climber
+DD,4638,101,b2,left,FALSE,TRUE,2,0,0,1,0,TRUE,2,TRUE,High shooter
+Cm,5724,101,r3,middle,FALSE,TRUE,2,0,0,5,0,FALSE,1,FALSE,Not a vad vot but not a great one ethier
+BN,836,102,r1,right,FALSE,TRUE,4,0,0,8,1,FALSE,f,FALSE,"Very accurate shooting, really good autonomous. Fell trying to go from mid bar to high bar"
+TR,3748,102,r2,middle,FALSE,FALSE,0,0,1,0,2,TRUE,f,TRUE,Robot didn’t seem to be moving correctly. Had to resort to defense
+GS,2914,102,r3,left,FALSE,TRUE,2,0,0,0,0,FALSE,2,FALSE,Tried playing defense but wasn’t very effective
+BK,4541,102,b1,middle,FALSE,TRUE,1,0,0,3,0,FALSE,f,FALSE,Pretty good shooter
+DD,1885,102,b2,left,FALSE,TRUE,2,0,0,7,0,TRUE,4,TRUE,Speedy climb and almost 100% accurate
+Cm,5587,102,b3,right,FALSE,TRUE,4,1,0,4,0,TRUE,4,TRUE,Was defend but the bot has potential
+BN,8592,103,r1,undefined,FALSE,TRUE,1,0,0,5,0,FALSE,x,FALSE,"Accurate shooter, got penalty for extending beyond allowed height during teleop"
+TR,1111,103,r2,right,FALSE,TRUE,2,0,0,11,0,TRUE,1,TRUE,"Shooter good, but got pushed around really easily"
+GS,6504,103,r3,middle,FALSE,TRUE,0,0,1,0,10,FALSE,2,FALSE,Consistent shots into lower hub.
+BK,384,103,b1,right,FALSE,TRUE,3,0,0,2,0,FALSE,2,FALSE,Strong defence bot
+DD,6802,103,b2,middle,FALSE,TRUE,0,1,0,4,0,FALSE,f,FALSE,Ran into an alliance member and broke a piece of plastic off
+Cm,2377,103,b3,left,FALSE,TRUE,2,0,0,2,0,FALSE,2,FALSE,Driver needs trainimg
+BN,1719,104,r1,middle,FALSE,FALSE,0,0,1,0,5,FALSE,x,FALSE,"Only shot in lower hub, did not attempt to climb"
+TR,4242,104,r2,left,FALSE,TRUE,0,2,0,2,0,FALSE,3,FALSE,"Robot not moving correctly, but excellent defense"
+GS,5804,104,r3,right,FALSE,TRUE,1,1,0,6,0,FALSE,4,FALSE,"Driving was very skilled, and shooting was consistent. Also played defense  when other robots were shooting."
+BK,4472,104,b1,right,FALSE,TRUE,1,0,0,10,0,FALSE,3,FALSE,"Very good shooting, driving, and climbing"
+DD,116,104,b2,middle,FALSE,TRUE,0,1,0,4,0,TRUE,4,TRUE,Accurate
+Cm,2068,104,b3,left,FALSE,TRUE,1,1,0,4,1,FALSE,x,FALSE,Terrible accuracy
+HS,1086,105,r1,middle,FALSE,TRUE,1,1,0,7,0,FALSE,2,FALSE,"Good speed, ineffective shooting"
+TR,1262,105,r2,right,FALSE,TRUE,3,0,0,10,0,TRUE,x,TRUE,Pretty good stability and shooting. Don’t have too many negative things to say
+GS,3136,105,r3,left,FALSE,TRUE,2,0,0,7,0,FALSE,2,FALSE,Consistent shooting but small intake.
+BK,2363,105,b1,right,FALSE,TRUE,5,0,0,9,0,FALSE,2,FALSE,Amazing driving and defense
+DD,1610,105,b2,middle,FALSE,TRUE,1,0,0,6,0,TRUE,f,TRUE,
+Cm,620,105,b3,left,FALSE,TRUE,1,1,0,7,0,FALSE,4,FALSE,It's a good bot
+HS,4099,106,r1,right,FALSE,TRUE,4,1,0,9,2,FALSE,2,FALSE,"Overall efficient, has to go to hub to shoot"
+TR,5338,106,r2,left,FALSE,TRUE,0,0,1,0,7,TRUE,4,TRUE,Started climbing far too early. Over 1 minute left.
+GS,4286,106,r3,middle,FALSE,TRUE,0,0,1,0,5,FALSE,f,FALSE,Intake was very small and the driving was slow
+BK,8726,106,b1,left,FALSE,TRUE,0,2,0,6,0,FALSE,x,FALSE,Nice shooting and driving
+DD,1895,106,b2,right,FALSE,TRUE,1,1,0,3,0,FALSE,f,FALSE,Accurate but balls bounce out
+Cm,1731,106,b3,middle,FALSE,TRUE,1,1,0,8,0,FALSE,4,FALSE,Really good team just needs better accuracy
+HS,2421,107,r1,undefined,FALSE,TRUE,1,1,0,1,2,FALSE,4,FALSE,Kept missing
+TR,888,107,r2,middle,FALSE,TRUE,1,2,0,0,7,TRUE,4,TRUE,Defense pretty good. Only shot bottom basket but made almost all of them
+GS,1908,107,r3,right,FALSE,TRUE,0,2,0,5,1,TRUE,x,TRUE,Robot was slow at the beginning but began driving and shooting more consistent near the end.
+,,,,,,,,,,,,,,,
+DD,7770,107,b2,middle,FALSE,TRUE,0,0,0,0,1,FALSE,3,FALSE,"Only shoots low, still inaccurate"
+Cm,623,107,b3,left,FALSE,TRUE,2,0,0,10,0,FALSE,4,FALSE,This bot has a decent shooter but a slow climb
+HS,1123,108,r1,undefined,FALSE,TRUE,0,0,2,0,7,FALSE,1,FALSE,Scores in lower hub consistently
+TR,1599,108,r2,middle,FALSE,TRUE,1,1,0,0,1,FALSE,3,FALSE,Seemed to not have a good connection and couldn’t really control their robot.
+GS,8230,108,r3,right,FALSE,TRUE,2,0,0,3,1,FALSE,f,FALSE,Robot made about 50% of shots. Also played defense and kept a robot from scoring.
+BK,4821,108,b1,undefined,FALSE,TRUE,1,0,0,2,0,FALSE,2,FALSE,Issues with accuracy
+DD,8622,108,b2,right,FALSE,TRUE,0,0,0,0,0,FALSE,x,FALSE,Died
+Cm,2199,108,b3,middle,FALSE,TRUE,1,1,0,6,0,FALSE,4,FALSE,Like every other bot better accuracy
+HS,686,109,r1,right,FALSE,TRUE,0,0,3,0,3,FALSE,4,FALSE,"Intake/shooter broke, top heavy when carrying balls"
+TR,122,109,r2,left,FALSE,TRUE,2,0,0,2,0,TRUE,f,TRUE,"Shooter not very accurate, was pushed around a lot"
+GS,1727,109,r3,middle,FALSE,TRUE,1,0,0,4,1,FALSE,2,FALSE,Skilled driving but inconsistent shooting
+BK,3939,109,b1,middle,FALSE,TRUE,0,2,0,2,0,TRUE,2,TRUE,Robot randomly stopped working several times
+DD,6326,109,b2,right,FALSE,TRUE,0,1,0,1,0,TRUE,f,TRUE,Just drove around mostly because it was being defended
+Cm,7429,109,b3,left,FALSE,TRUE,0,2,0,6,0,FALSE,2,FALSE,It was painful to watch they shoot bounces out and over and over
+HS,3274,110,r1,undefined,FALSE,TRUE,2,0,0,0,0,FALSE,f,FALSE,Amazing defense
+TR,2537,110,r2,middle,FALSE,TRUE,0,1,0,5,0,FALSE,f,FALSE,Shooting for Bert throughout game. Autonomous phase not successful.
+GS,401,110,r3,right,FALSE,TRUE,5,0,0,11,0,FALSE,2,FALSE,Shooting was very consistent and fast.
+BK,612,110,b1,left,FALSE,TRUE,0,0,1,0,0,FALSE,f,FALSE,Robot stopped working for most of the match
+DD,449,110,b2,right,FALSE,TRUE,0,0,0,3,0,TRUE,4,TRUE,
+Cm,2186,110,b3,middle,FALSE,TRUE,0,1,0,3,0,FALSE,2,FALSE,Slow bot and has intake problem
+HS,6194,111,r1,middle,FALSE,TRUE,1,0,0,0,0,FALSE,2,FALSE,Extremely aggressive and top heavy
+TR,4638,111,r2,left,FALSE,TRUE,0,1,0,3,1,TRUE,3,TRUE,"Got pushed around a lot by other robots, couldn’t line itself up properly."
+GS,384,111,r3,right,FALSE,TRUE,3,0,0,10,0,FALSE,1,FALSE,Shooting was consistent and driving was very good
+BK,4242,111,b1,middle,FALSE,TRUE,1,0,0,2,0,FALSE,f,FALSE,Robot had some issues with shooter as well as driving
+DD,1885,111,b2,left,FALSE,TRUE,2,0,0,7,0,TRUE,4,TRUE,"Better accuracy in auto, I blame the driver =("
+Cm,1111,111,b3,right,FALSE,TRUE,2,0,0,12,0,FALSE,x,FALSE,It's a good bot
+HS,3748,112,r1,middle,FALSE,TRUE,0,0,2,0,0,FALSE,2,FALSE,Ineffective at defense and that's all that it does
+TR,1086,112,r2,right,FALSE,TRUE,0,2,0,12,0,FALSE,2,FALSE,Long distance shooting is really accurate. Fast climbing
+GS,4541,112,r3,left,FALSE,TRUE,2,0,0,4,0,FALSE,4,FALSE,"Shooting was accurate, but driving was average"
+BK,422,112,b1,middle,FALSE,TRUE,2,0,0,8,0,TRUE,3,TRUE,Some issues with climber and intake
+DD,1719,112,b2,right,FALSE,TRUE,0,0,0,0,4,FALSE,2,FALSE,Wasted a lot of time
+Cm,3136,112,b3,left,FALSE,TRUE,1,1,0,8,0,FALSE,1,FALSE,Not alot of maneuverability
+HS,5587,113,r1,right,FALSE,TRUE,0,2,0,2,0,FALSE,4,FALSE,Lack of driver/coach experience
+TR,620,113,r2,middle,FALSE,TRUE,1,0,0,1,0,TRUE,4,TRUE,Shooter wasn’t working properly. Ball shot out without prompt.
+GS,6802,113,r3,left,FALSE,TRUE,1,1,0,0,2,FALSE,2,FALSE,Shooting was very inconsistent.
+BK,1731,113,b1,right,FALSE,TRUE,4,0,0,0,0,FALSE,4,FALSE,More inaccurate than usual. Great climber
+DD,614,113,b2,left,FALSE,TRUE,0,2,0,6,1,FALSE,3,FALSE,
+Cm,4286,113,b3,middle,FALSE,TRUE,0,0,1,0,4,FALSE,f,FALSE,Bot looked like something was wrong with it
+HS,2068,114,r1,right,FALSE,TRUE,1,0,0,2,0,FALSE,x,FALSE,Defended against Triple Helix
+TR,2421,114,r2,left,FALSE,TRUE,2,0,0,3,0,FALSE,4,FALSE,Defense was very good. Had trouble finding cargo
+GS,623,114,r3,middle,FALSE,TRUE,2,0,0,6,0,FALSE,4,FALSE,"Intake and shooting were consistent, and climbing was quick."
+BK,2363,114,b1,right,FALSE,TRUE,3,1,0,10,0,TRUE,2,TRUE,Very fast and accurate
+DD,8592,114,b2,middle,FALSE,TRUE,1,0,0,4,0,FALSE,2,FALSE,"Very accurate, but not enough shots"
+Cm,1629,114,b3,left,FALSE,TRUE,1,1,0,7,0,TRUE,f,TRUE,Has to go yp to goal to shoot
+HS,2914,115,r1,undefined,FALSE,TRUE,2,0,0,3,0,FALSE,2,FALSE,Takes a while to aim
+TR,8230,115,r2,right,FALSE,TRUE,2,0,0,9,0,FALSE,f,FALSE,Shot poorly at the beginning. Fixed later.
+GS,8622,115,r3,middle,FALSE,TRUE,1,0,0,3,0,FALSE,f,FALSE,"Shooting was inconsistent, and climbing didn’t work properly"
+BK,888,115,b1,middle,FALSE,TRUE,0,2,0,1,2,FALSE,3,FALSE,"Fairly good shooting, climbing, and driving"
+DD,5804,115,b2,right,FALSE,FALSE,2,0,0,9,0,FALSE,3,FALSE,"Very accurate, drifts like on ice"
+Cm,2377,115,b3,left,FALSE,TRUE,2,0,0,6,0,FALSE,x,FALSE,I think this bot wouldn't be a terrible pick if everything else is gone
+HS,1895,116,r1,undefined,FALSE,TRUE,2,0,0,9,1,FALSE,1,FALSE,Pretty efficient
+TR,836,116,r2,right,FALSE,FALSE,3,1,0,7,0,TRUE,3,TRUE,"Great feeder, great auto session, good climbing, did not go traversal"
+GS,686,116,r3,middle,FALSE,TRUE,0,0,1,0,7,FALSE,4,FALSE,Shooting was consistent and quick.
+BK,1599,116,b1,middle,FALSE,TRUE,0,1,0,2,0,FALSE,4,FALSE,Accuracy was not as good as usual. Climbing was amazing
+DD,1262,116,b2,right,FALSE,TRUE,1,0,0,13,0,FALSE,x,FALSE,Got progressively better through the match
+Cm,5549,116,b3,left,FALSE,TRUE,1,1,0,0,0,FALSE,f,FALSE,Got thier climber stuck on the traversal bot
+HS,1610,117,r1,middle,FALSE,TRUE,1,0,0,6,2,FALSE,2,FALSE,undefined
+TR,449,117,r2,left,FALSE,TRUE,0,2,0,9,0,FALSE,4,FALSE,Great shooter.
+GS,401,117,r3,right,FALSE,TRUE,4,1,0,7,0,FALSE,3,FALSE,Nice
+BK,1908,117,b1,right,FALSE,TRUE,0,0,0,3,1,FALSE,2,FALSE,
+DD,1123,117,b2,right,FALSE,TRUE,0,0,2,0,8,FALSE,1,FALSE,
+Cm,1727,117,b3,middle,FALSE,TRUE,0,1,0,3,0,FALSE,4,FALSE,Slow ball cycles

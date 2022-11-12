@@ -10,6 +10,9 @@ from plotly.subplots import make_subplots
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 from operator import itemgetter
 import frc_team_data_lookup as lookup
+import logging as log
+
+log.basicConfig(level=log.DEBUG)
 
 app = Dash(__name__)
 
@@ -17,22 +20,46 @@ event_key = '2022varr'
 # lookup.new_team_season_data_json(event_key)
 # print('done')
 # lookup.new_event_team_lookup_json(event_key)
-teams = lookup.get_event_teams_list(event_key)
-team_lookup_dict = lookup.event_team_lookup_dict(event_key)
+# teams = lookup.get_event_teams_list(event_key)
+team_lookup_dict = lookup.open_event_team_lookup_json()
 
-raw_data = pd.read_csv('401 Rumble in the Roads Scouting Data 2023 - csvFormat.csv')
+# raw_data = pd.read_csv('401 Rumble in the Roads Scouting Data 2023 - csvFormat.csv')
 # print(raw_data.head(10))
 # raw_data.head(10)
-for index, value in enumerate(raw_data['Climb']):
-		if value == 'f': raw_data['Climb'].iloc[index] = 'Failed'
-		if value == 'x': raw_data['Climb'].iloc[index] = 'No Attempt'
-		if value == '1': raw_data['Climb'].iloc[index] = 'Low'
-		if value == '2': raw_data['Climb'].iloc[index] = 'Mid'
-		if value == '3': raw_data['Climb'].iloc[index] = 'High'
-		if value == '4': raw_data['Climb'].iloc[index] = 'Traversal'
+# for index, value in enumerate(raw_data['Climb']):
+# 		if value == 'f': raw_data['Climb'].iloc[index] = 'Failed'
+# 		if value == 'x': raw_data['Climb'].iloc[index] = 'No Attempt'
+# 		if value == '1': raw_data['Climb'].iloc[index] = 'Low'
+# 		if value == '2': raw_data['Climb'].iloc[index] = 'Mid'
+# 		if value == '3': raw_data['Climb'].iloc[index] = 'High'
+# 		if value == '4': raw_data['Climb'].iloc[index] = 'Traversal'
+
+raw_data = pd.read_csv('401 Rumble in the Roads Scouting Data 2023 - csvFormat.csv')
+# raw_data.head(10)
+# print(raw_data)
+# df = raw_data.dropna() 
+# newdf = df["Team Number"]
+raw_data = raw_data.fillna('0')
+# print(raw_data)
+
+convert_dict = {
+    'Team Number': int,
+    'Match Number': int,
+    'Auto Upper Hub Scored': int,
+    'Auto Upper Hub Missed': int,
+    'Auto Lower Hub Scored': int,
+    'Upper Hub Scored': int,
+    'Lower Hub Scored': int
+}
+
+raw_data = raw_data.astype(convert_dict)
+# raw_data = raw_data[raw_data['Team Number'] == 401]
+# raw_data.head(1000)
 
 unique_team_nums = (raw_data['Team Number'].dropna()).unique()
 unique_team_nums.sort()
+print(type(raw_data['Auto Lower Hub Scored'][1]))
+print(type(raw_data['Lower Hub Scored'][1]))
 
 # print(unique_team_nums)
 
@@ -51,7 +78,7 @@ app.layout = html.Div([
     html.Div(id='team_name', children=[]),
     html.Br(),
     dcc.Graph(id='auto_balls_graph', figure={}),
-    html.Br(),
+    html.Br(), 
     dcc.Graph(id='tele_balls_graph', figure={}),
     html.Br(),
     dcc.Graph(id='climbs_table', figure={}),
@@ -137,12 +164,13 @@ def update_graph(select_team):
 		title_text="<b>Match Number</b>")
  
 	# Teleop Balls Shot Bar Chart
- 
+	# log.debug(team_raw_data['Lower Hub Scored'][0])
+	# log.debug(type(team_raw_data['Auto Lower Hub Scored'][0]))
 	tele_low_trace = go.Bar(
 		x=x,
-		y=raw_data['Lower Hub Scored'],
+		y=team_raw_data['Lower Hub Scored'],
 		name='Low Hub Scored',
-		text=raw_data['Lower Hub Scored'],
+		text=team_raw_data['Lower Hub Scored'],
 		textposition='auto',
 		hovertemplate = 
 		"Low: %{y}"+
@@ -151,9 +179,9 @@ def update_graph(select_team):
 
 	tele_high_trace = go.Bar(
 		x=x,
-		y=raw_data['Upper Hub Scored'],
+		y=team_raw_data['Upper Hub Scored'],
 		name='High Hub Scored',
-		text=raw_data['Upper Hub Scored'],
+		text=team_raw_data['Upper Hub Scored'],
 		textposition='auto',
 		hovertemplate = 
 		"High: %{y}"+

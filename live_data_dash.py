@@ -11,6 +11,7 @@ from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 from operator import itemgetter
 import frc_team_data_lookup as lookup
 import logging as log
+import numpy
 
 log.basicConfig(level=log.DEBUG)
 
@@ -39,6 +40,7 @@ raw_data = pd.read_csv('401 Rumble in the Roads Scouting Data 2023 - csvFormat.c
 # print(raw_data)
 # df = raw_data.dropna() 
 # newdf = df["Team Number"]
+na_formatted = raw_data.fillna('')
 raw_data = raw_data.fillna('0')
 # print(raw_data)
 
@@ -57,6 +59,7 @@ raw_data = raw_data.astype(convert_dict)
 # raw_data.head(1000)
 
 unique_team_nums = (raw_data['Team Number'].dropna()).unique()
+unique_team_nums = numpy.append(unique_team_nums, 5555)
 unique_team_nums.sort()
 print(type(raw_data['Auto Lower Hub Scored'][1]))
 print(type(raw_data['Lower Hub Scored'][1]))
@@ -105,10 +108,16 @@ app.layout = html.Div([
 
 def update_graph(select_team):
     
-	name = [team_lookup_dict[f'frc{select_team}']['profile']['nickname']]
-	nickname = f'Team {select_team}: {name[0]}'
+	try:
+		name = [team_lookup_dict[f'frc{select_team}']['profile']['nickname']]
+		nickname = f'Team {select_team}: {name[0]}'
+  
+	except:
+		nickname = 'TEAM NOT IN DATABASE'
+     
     
 	team_raw_data = raw_data[raw_data['Team Number'] == select_team]
+	climb_raw_data = na_formatted[raw_data['Team Number'] == select_team]
 
 	x = team_raw_data['Match Number']
  
@@ -206,8 +215,8 @@ def update_graph(select_team):
  
 	# Climbs Table
 	
-	climb_table_col1 = team_raw_data['Match Number']
-	climb_table_col2 = team_raw_data['Climb']
+	climb_table_col1 = climb_raw_data['Match Number']
+	climb_table_col2 = climb_raw_data['Climb']
 
 	climb_table_trace = go.Table(
 		header=dict(
